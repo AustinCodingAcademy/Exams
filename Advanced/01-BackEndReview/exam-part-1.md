@@ -28,3 +28,14 @@ Define the following terms
 ### relative path
 
 ### absolute path
+
+Section 1 - Data types
+----------------------
+
+### Problem 1
+
+List the basic (scalar) data types in PHP
+
+### Problem 2
+
+When casting from a float to an int, what is the expected behavior?
