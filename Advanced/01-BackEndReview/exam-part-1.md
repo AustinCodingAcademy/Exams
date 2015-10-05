@@ -29,6 +29,10 @@ Define the following terms
 
 ### absolute path
 
+
+
+
+
 Section 1 - Data types
 ----------------------
 
@@ -70,3 +74,72 @@ What is the expected data type resulting from evaluating each expression?
 * `(int) 5.0 + 3` - 
 * `"joe" == "JOE"` - 
 * `0.0 + 2` - 
+
+### Problem 5
+
+What is the difference between a static typing and dynamic typing?
+
+### Problem 6
+
+What is the difference between strong typing and weak typing?
+
+
+
+
+
+Section 2 - If statements
+-------------------------
+
+### Problem 1
+
+Describe the general form of an `if`/`else if`/`else` statement
+
+### Problem 2
+
+What will the following code print to the screen?
+
+    <?php
+
+    $x = 10;
+    $y = true;
+
+    if($x > 10){
+        if($x == 10 && $x % 2 == 0){
+            echo "$x is even and equal to 10";
+        }
+    }
+    else if($y){
+        echo '$y was true';
+    }
+    else if($x == 10){
+        echo '$x was 10';
+    }
+    else{
+        echo "Nothing happened";
+    }
+
+    ?>
+
+### Problem 3
+
+How are the following if statements different? What are the implications of this
+difference?
+
+    if($cond1){
+        // Do stuff if $cond1 is true
+    }
+    else if($cond2){
+        // Do stuff if $cond2 is true
+    }
+
+vs
+
+
+    if($cond1){
+        // Do stuff if $cond1 is true
+    }
+    if($cond2){
+        // Do stuff if $cond2 is true
+    }
+
+### Problem 4
