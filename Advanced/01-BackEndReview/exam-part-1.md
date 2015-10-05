@@ -44,5 +44,29 @@ When casting from a float to an int, what is the expected behavior?
 
 List the data type that best represents each object/scenario:
 
+* contents of an email - 
 * boxes of pizza - 
+* number of donations a non-profit has received - 
 * miles driven -
+* is the account balance larger than the charge requested? - 
+* number of students in a class - 
+* Star rating on a review website -
+* is it raining outside? - 
+* percent increase in stock value - 
+* gallons of gas purchased at a gas pump - 
+* an account user name - 
+* a phone number - 
+* is the user name / password combination correct?
+
+### Problem 4
+
+What is the expected data type resulting from evaluating each expression?
+
+* `5 + 10` - 
+* `(int) $x == $x` - 
+* `5.0 + 10` - 
+* `"Number of siblings: " . $num_siblings` - 
+* `5 >= 2` - 
+* `(int) 5.0 + 3` - 
+* `"joe" == "JOE"` - 
+* `0.0 + 2` - 
