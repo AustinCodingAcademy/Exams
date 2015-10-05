@@ -34,7 +34,8 @@ before proceeding with higher level software development concepts.
 
 * This exam should be administered **in class**
 * Part 1 of the exam is hand written. No computers are allowed during this
-  portion of the exam.
+  portion of the exam. Students must hand in Part 1 of the exam before they
+  can begin Part 2.
 * Part 2 of the exam is coded. Using the internet to search for help is **NOT
   ALLOWED**. Instead, a reference will be provided. TAs should walk around the
   class to ensure students are not using the internet to searh for help.
