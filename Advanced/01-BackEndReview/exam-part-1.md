@@ -248,9 +248,9 @@ Observe the following code:
 
     ?>
 
-Refactor this code, removing the redundancies currently present but retaining
-the same behavior of the code. Explain why you were able to eliminate the
-sections of code you did.
+<p class="handcode">Refactor this code, removing the redundancies currently
+present but retaining the same behavior of the code. Explain why you were able
+to eliminate the sections of code you did.</p>
 
 ### Problem 6
 
@@ -267,8 +267,8 @@ Observe the following code:
 
     ?>
 
-Refactor this code, removing the nested `if` statements but retaining the same
-behavior of the code.
+<p class="handcode">Refactor this code, removing the nested `if` statements but
+retaining the same behavior of the code.</p>
 
 ### Problem 7
 
