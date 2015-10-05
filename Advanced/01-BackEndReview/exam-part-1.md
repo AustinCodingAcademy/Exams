@@ -39,3 +39,10 @@ List the basic (scalar) data types in PHP
 ### Problem 2
 
 When casting from a float to an int, what is the expected behavior?
+
+### Problem 3
+
+List the data type that best represents each object/scenario:
+
+* boxes of pizza - 
+* miles driven -
