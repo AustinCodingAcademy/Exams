@@ -120,6 +120,8 @@ What will the following code print to the screen?
 
     ?>
 
+Output:
+
 ### Problem 3
 
 How are the following if statements different? What are the implications of this
@@ -141,5 +143,7 @@ vs
     if($cond2){
         // Do stuff if $cond2 is true
     }
+
+Answer:
 
 ### Problem 4
