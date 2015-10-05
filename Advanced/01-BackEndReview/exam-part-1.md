@@ -132,11 +132,15 @@ Section 2 - If statements
 
 ### relational expression
 
+Definition:
+
 ### demorgan's laws
+
+Definition:
 
 ### mutually exclusive
 
-.
+Definition:
 
 ### Problem 1
 
@@ -174,27 +178,27 @@ Output:
 
 What will the following code print to the screen?
 
-<?php
+    <?php
 
-$x = 10;
-$y = true;
+    $x = 10;
+    $y = true;
 
-if($x == 10 && $x % 2 == 0){
-    if($x > 10){
-        echo "$x is even and equal to 10";
+    if($x == 10 && $x % 2 == 0){
+        if($x > 10){
+            echo "$x is even and equal to 10";
+        }
     }
-}
-else if($y){
-    echo '$y was true';
-}
-else if($x == 10){
-    echo '$x was 10';
-}
-else{
-    echo "Nothing happened";
-}
+    else if($y){
+        echo '$y was true';
+    }
+    else if($x == 10){
+        echo '$x was 10';
+    }
+    else{
+        echo "Nothing happened";
+    }
 
-?>
+    ?>
 
 Output:
 
@@ -268,4 +272,36 @@ behavior of the code.
 
 ### Problem 7
 
-Consider the following expression
+Consider the following if statement:
+
+    <?php
+
+    if($current_balance >= $charge_amount || $overdraft_allowed){
+        // do something
+    }
+    else{
+        // do something else
+    }
+
+    ?>
+
+If the if-statement is considered false, what information can we conclude by
+DeMorgan's Laws?
+
+### Problem 8
+
+Consider the following if statement:
+
+    <?php
+
+    if($temperature >= 80 && $condition == "sunny"){
+        // do something
+    }
+    else{
+        // do something else
+    }
+
+    ?>
+
+If the if-statement is considered false, what information can we conclude by
+DeMorgan's Laws?
