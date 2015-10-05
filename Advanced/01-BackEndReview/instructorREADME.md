@@ -12,6 +12,7 @@ Topics covered
 --------------
 
 * Vocabulary
+* Data types
 * Arrays
 * Execution paths
 * Debugging
