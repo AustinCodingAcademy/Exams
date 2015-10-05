@@ -11,25 +11,43 @@ Section 0 - Basic vocabulary
 
 ### variable
 
+Definition:
+
 ### constant
+
+Definition:
 
 ### operator
 
+Definition:
+
 ### operand
+
+Definition:
 
 ### statement
 
+Definition:
+
 ### expression
+
+Definition:
 
 ### syntax error
 
+Definition:
+
 ### logical error
+
+Definition:
 
 ### relative path
 
+Definition:
+
 ### absolute path
 
-
+Definition:
 
 
 
@@ -43,11 +61,19 @@ Section 1 - Data types
 
 ### cast
 
+Definition:
+
 ### implicit conversion
+
+Definition:
 
 ### truncation
 
-.
+Definition:
+
+### Problem 1
+
+List the basic (scalar) data types in PHP
 
 ### Problem 2
 
