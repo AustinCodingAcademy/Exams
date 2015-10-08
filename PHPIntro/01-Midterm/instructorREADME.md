@@ -16,6 +16,7 @@ Topics covered
 
 * Data types
 * Variables
+* Operators
 * Getting in and out of PHP
 * Arrays
     + sequential
