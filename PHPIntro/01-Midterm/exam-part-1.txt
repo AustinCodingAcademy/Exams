@@ -50,75 +50,58 @@ d) boolean:
 For each of the following situations, select the data type that best represents
 the situation:
 
+Question: "The number of kids a person has"
+Answer: integer
+
 1. The number of pizzas you should order for the office
 
-    a. integer
-    b. float
-    c. string
-    d. boolean
+Answer:
+
 
 2. The number of pizzas you should order for the office
 
-    a. integer
-    b. float
-    c. string
-    d. boolean
+Answer:
+
 
 3. The number of pizzas you should order for the office
 
-    a. integer
-    b. float
-    c. string
-    d. boolean
+Answer:
+
 
 4. The number of pizzas you should order for the office
 
-    a. integer
-    b. float
-    c. string
-    d. boolean
+Answer:
+
 
 5. The number of pizzas you should order for the office
 
-    a. integer
-    b. float
-    c. string
-    d. boolean
+Answer:
+
 
 6. The number of pizzas you should order for the office
 
-    a. integer
-    b. float
-    c. string
-    d. boolean
+Answer:
+
 
 7. The number of pizzas you should order for the office
 
-    a. integer
-    b. float
-    c. string
-    d. boolean
+Answer:
+
 
 8. The number of pizzas you should order for the office
 
-    a. integer
-    b. float
-    c. string
-    d. boolean
+Answer:
+
 
 9. The number of pizzas you should order for the office
 
-    a. integer
-    b. float
-    c. string
-    d. boolean
+Answer:
+
 
 10. The number of pizzas you should order for the office
 
-    a. integer
-    b. float
-    c. string
-    d. boolean
+Answer:
+
 
 Section 2 - Variables
 ---------------------
@@ -157,20 +140,12 @@ What will the following program print?
 
     ?>
 
-    a. x is $x
-       y is $y
+Answer:
 
-    b. x is 10
-       y is 10
 
-    c. x is 5
-       y is 10
 
-    d. x is 10
-       y is 5
 
-    e. x is 5
-       y is 5
+
 
 ### Problem
 -------------
@@ -188,103 +163,71 @@ What will the following program print?
 
     ?>
 
-    a. a is $a
-       b is $b
+Answer:
 
-    b. a is 10
-       b is 10
 
-    c. a is 5
-       b is 10
 
-    d. a is 10
-       b is 5
 
-    e. x is 5
-       y is 5
 
 ### Problem
 
-For each of the following situations, select the variable name that best
+For each of the following situations, create a variable name that best
 represents the situation:
+
+Example:
+
+Question: "The name of your ACA instructor"
+Answer: $acaInstructor
 
 1. The number of pizzas you should order for the office
 
-    a. $pizza
-    b. $numPizzas
-    c. $numberOfPizzas
-    d. $p
+Answer:
+
 
 2. The number of pizzas you should order for the office
 
-    a. $pizza
-    b. $numPizzas
-    c. $numberOfPizzas
-    d. $p
+Answer:
 
 
 3. The number of pizzas you should order for the office
 
-    a. $pizza
-    b. $numPizzas
-    c. $numberOfPizzas
-    d. $p
+Answer:
 
 
 4. The number of pizzas you should order for the office
 
-    a. $pizza
-    b. $numPizzas
-    c. $numberOfPizzas
-    d. $p
+Answer:
 
 
 5. The number of pizzas you should order for the office
 
-    a. $pizza
-    b. $numPizzas
-    c. $numberOfPizzas
-    d. $p
+Answer:
 
 
 6. The number of pizzas you should order for the office
 
-    a. $pizza
-    b. $numPizzas
-    c. $numberOfPizzas
-    d. $p
+Answer:
 
 
 7. The number of pizzas you should order for the office
 
-    a. $pizza
-    b. $numPizzas
-    c. $numberOfPizzas
-    d. $p
+Answer:
 
 
 8. The number of pizzas you should order for the office
 
-    a. $pizza
-    b. $numPizzas
-    c. $numberOfPizzas
-    d. $p
+Answer:
 
 
 9. The number of pizzas you should order for the office
 
-    a. $pizza
-    b. $numPizzas
-    c. $numberOfPizzas
-    d. $p
+Answer:
 
 
 10. The number of pizzas you should order for the office
 
-    a. $pizza
-    b. $numPizzas
-    c. $numberOfPizzas
-    d. $p
+Answer:
+
 
 ### Problem
 
@@ -376,7 +319,7 @@ Section 3 - Operators
 
 ### Problem
 
-What is the output of the following program?
+What will the following program print?
 
     <?php
 
@@ -390,16 +333,19 @@ What is the output of the following program?
 
     ?>
 
-Answer: _______________________
+Answer:
+
+
 
 ### Problem
 
-What is the term for combining two strings together?
+Create two string variables $s1 and $s2. Assign the concatenation of the two
+strings to a variable $s3
 
-    a. Joining
-    b. Adding
-    c. Concatenating
-    d. Gluing
+Answer:
+
+
+
 
 ### Problem
 
@@ -412,6 +358,11 @@ What is the output of the following program?
 
     ?>
 
+Answer:
+
+
+
+
 ### Problem
 
 Observe the following code:
@@ -421,7 +372,12 @@ Observe the following code:
         $y = 5 . 2;
     ?>
 
-What are the values of $x and $y? What are their data types?
+What are the values of $x and $y? What is the data type of $x? What is the
+data type of $y?
+
+Answer:
+
+
 
 
 ### Problem
@@ -433,6 +389,13 @@ What is the output of the following program?
         echo "Hello! My name is" . $name;
     ?>
 
+Answer:
+
+
+
+
+
+
 Section 4 - PHP code blocks
 ---------------------------
 
@@ -440,8 +403,8 @@ Section 4 - PHP code blocks
 
 Fill in the blanks:
 
-Source code between `<?php` and `?>` is interpreted as ___________. Source code
-not between `<?php` and `?>` is interpreted as __________.
+Source code between <?php and ?> is interpreted as ___________. Source code
+not between <?php and ?> is interpreted as __________.
 
 ### Problem
 
@@ -454,6 +417,13 @@ Is the following legal PHP code? Why or why not?
 
     ?>
 
+Answer:
+
+
+
+
+
+
 Section 5 - Arrays
 ------------------
 
@@ -461,25 +431,55 @@ Section 5 - Arrays
 
 Explain the difference between a sequential array and an associative array
 
+Answer:
+
+
+
+
+
+
 ### Problem
 
 Define the following terms:
 
 1) array element
+
+Definition:
+
+
+
 2) array index
+
+Definition:
+
+
+
 3) array key
 
-### Problem
+Definition:
 
-How many elements are in the array `$grades`?
 
-### Problem
-
-What is the first element of the array `$tweets`?
 
 ### Problem
 
-What is the last element of the array `$hobbies`?
+How many elements are in the array $grades?
+
+Answer:
+
+
+### Problem
+
+What is the first element of the array $tweets?
+
+Answer:
+
+
+### Problem
+
+What is the last element of the array $hobbies?
+
+Answer:
+
 
 Section 6 - Conditionals
 ------------------------
