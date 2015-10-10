@@ -448,13 +448,25 @@ Definition:
 
 
 
-2) array index
+2) index of an element
 
 Definition:
 
 
 
 3) array key
+
+Definition:
+
+
+
+4) key-value pair
+
+Definition:
+
+
+
+5) loop iteration
 
 Definition:
 
@@ -467,6 +479,7 @@ How many elements are in the array $grades?
 Answer:
 
 
+
 ### Problem
 
 What is the first element of the array $tweets?
@@ -474,11 +487,225 @@ What is the first element of the array $tweets?
 Answer:
 
 
+
 ### Problem
 
 What is the last element of the array $hobbies?
 
 Answer:
+
+
+
+### Problem
+
+Consider the following array
+
+    $arr = [4,2,1,3,0];
+
+What are the values of the following expressions?
+
+### Problem
+
+For each of the pieces of data, create an array that best represents the data.
+Assign the array to an appropriately named variable.
+
+1) The students in the class are Bob, Jill, Jack, and Jaime.
+
+Answer:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1) The students in the class are Bob, Jill, Jack, and Jaime.
+
+Answer:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1) The students in the class are Bob, Jill, Jack, and Jaime.
+
+Answer:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1) The students in the class are Bob, Jill, Jack, and Jaime.
+
+Answer:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1) The students in the class are Bob, Jill, Jack, and Jaime.
+
+Answer:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Problem
+
+Suppose we are given the following user information from querying a social
+network database:
+
+USER table
++----+------------+------------------+--------------+
+| id | profile_id | email            | join_date    |
++----+------------+------------------+--------------+
+|  1 |          5 | john@example.com | Feb 13, 2012 |
+|  4 |         15 | jack12@yahoo.com | Mar 01, 2013 |
+| 10 |         97 | meghan@yahoo.com | Sep 22, 2015 |
++----+------------+------------------+--------------+
+
+We can read the first row as "The user with id 1 has a profile_id of 5, an
+email of john@example.com, and a join_date of Feb 13, 2012"
+
+Create an array $users representing the information contained in the query
+above. If your array is structured correctly, the following expressions will
+be true:
+
+* $users[4]['email'] == 'jack12@yahoo.com'
+* $users[10]['profile_id'] == 97
+
+Answer:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Problem
+
+Suppose we are making a more complex query to the same social network
+database. In addition to results from the USER table, we have also been
+provided with data from a related PROFILE table.
+
+USER table
++----+------------+------------------+--------------+
+| id | profile_id | email            | join_date    |
++----+------------+------------------+--------------+
+|  1 |          5 | john@example.com | Feb 13, 2012 |
+|  4 |         15 | jack12@yahoo.com | Mar 01, 2013 |
+| 10 |         97 | meghan@yahoo.com | Sep 22, 2015 |
++----+------------+------------------+--------------+
+
+PROFILE table
++----+------------+-----------+--------------+
+| id | first_name | last_name | phone_number |
++----+------------+-----------+--------------+
+|  5 |       John |       Doe | 512-111-2211 |
+| 15 |       Jack |   Daniels | 512-555-2323 |
+| 97 |     Meghan | McDaniels | 512-987-5434 |
++----+------------+------------------+-------+
+
+The two tables are structured such that the profile_id in the USER table is
+associated with the id in the PROFILE table. According to this structure, the
+last name of the user with id 10 is "McDaniels".
+
+Create an array $users representing the information contained in BOTH of the
+queries above. Each individual user in the $users array should have a
+'profile' key containing their information from the PROFILE table.
+
+Answer:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Section 6 - Conditionals
