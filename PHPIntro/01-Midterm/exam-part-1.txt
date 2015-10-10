@@ -597,24 +597,56 @@ Answer:
 
 ### Problem
 
+For the following array, indicate the expression that would be used to
+retrieve the requested values:
+
+    $patients = array(
+        array(
+            'name' => 'Sean Connery',
+            'illness' => 'High fever',
+            'admittance_time' => '07:30 PM'
+        ),
+        array(
+            'name' => 'Robert Frost',
+            'illness' => 'Broken leg',
+            'admittance_time' => '08:30 AM'
+        ),
+        array(
+            'name' => 'Hacker McHackerson',
+            'illness' => 'Carpel Tunnel',
+            'admittance_time' => '12:30 PM'
+        )
+    )
+
+1)   'High fever': ___________________
+
+2)     '12:30 PM': ___________________
+
+3) 'Robert Frost': ___________________
+
+
+### Problem
+
 Suppose we are given the following user information from querying a social
 network database:
 
-USER table
-+----+------------+------------------+--------------+
-| id | profile_id | email            | join_date    |
-+----+------------+------------------+--------------+
-|  1 |          5 | john@example.com | Feb 13, 2012 |
-|  4 |         15 | jack12@yahoo.com | Mar 01, 2013 |
-| 10 |         97 | meghan@yahoo.com | Sep 22, 2015 |
-+----+------------+------------------+--------------+
+Query results:
+
+    USER table
+    +----+------------+------------------+--------------+
+    | id | profile_id | email            | join_date    |
+    +----+------------+------------------+--------------+
+    |  1 |          5 | john@example.com | Feb 13, 2012 |
+    |  4 |         15 | jack12@yahoo.com | Mar 01, 2013 |
+    | 10 |         97 | meghan@yahoo.com | Sep 22, 2015 |
+    +----+------------+------------------+--------------+
 
 We can read the first row as "The user with id 1 has a profile_id of 5, an
 email of john@example.com, and a join_date of Feb 13, 2012"
 
 Create an array $users representing the information contained in the query
-above. If your array is structured correctly, the following expressions will
-be true:
+results. If your array is structured correctly, the following expressions
+will be true:
 
 * $users[4]['email'] == 'jack12@yahoo.com'
 * $users[10]['profile_id'] == 97
@@ -653,31 +685,33 @@ Suppose we are making a more complex query to the same social network
 database. In addition to results from the USER table, we have also been
 provided with data from a related PROFILE table.
 
-USER table
-+----+------------+------------------+--------------+
-| id | profile_id | email            | join_date    |
-+----+------------+------------------+--------------+
-|  1 |          5 | john@example.com | Feb 13, 2012 |
-|  4 |         15 | jack12@yahoo.com | Mar 01, 2013 |
-| 10 |         97 | meghan@yahoo.com | Sep 22, 2015 |
-+----+------------+------------------+--------------+
+Query results:
 
-PROFILE table
-+----+------------+-----------+--------------+
-| id | first_name | last_name | phone_number |
-+----+------------+-----------+--------------+
-|  5 |       John |       Doe | 512-111-2211 |
-| 15 |       Jack |   Daniels | 512-555-2323 |
-| 97 |     Meghan | McDaniels | 512-987-5434 |
-+----+------------+------------------+-------+
+    USER table
+    +----+------------+------------------+--------------+
+    | id | profile_id | email            | join_date    |
+    +----+------------+------------------+--------------+
+    |  1 |          5 | john@example.com | Feb 13, 2012 |
+    |  4 |         15 | jack12@yahoo.com | Mar 01, 2013 |
+    | 10 |         97 | meghan@yahoo.com | Sep 22, 2015 |
+    +----+------------+------------------+--------------+
+
+    PROFILE table
+    +----+------------+-----------+--------------+
+    | id | first_name | last_name | phone_number |
+    +----+------------+-----------+--------------+
+    |  5 |       John |       Doe | 512-111-2211 |
+    | 15 |       Jack |   Daniels | 512-555-2323 |
+    | 97 |     Meghan | McDaniels | 512-987-5434 |
+    +----+------------+------------------+-------+
 
 The two tables are structured such that the profile_id in the USER table is
 associated with the id in the PROFILE table. According to this structure, the
 last name of the user with id 10 is "McDaniels".
 
-Create an array $users representing the information contained in BOTH of the
-queries above. Each individual user in the $users array should have a
-'profile' key containing their information from the PROFILE table.
+Create an array $users representing the information contained in the query
+results. Each individual user in the $users array should have a 'profile' key
+containing their information from the PROFILE table.
 
 Answer:
 
@@ -706,6 +740,7 @@ Answer:
 
 
 
+### Problem
 
 
 Section 6 - Conditionals
