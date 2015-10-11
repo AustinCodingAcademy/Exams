@@ -940,14 +940,14 @@ Answer:
 
 Observe the following true PHP expressions:
 
-* 1 % 2 == false
-* 2 % 2 == true
-* 3 % 2 == false
-* 4 % 2 == true
-* 5 % 2 == false
-* 6 % 2 == true
-* 7 % 2 == false
-* 8 % 2 == true
+* 1 % 2 == 1
+* 2 % 2 == 0
+* 3 % 2 == 1
+* 4 % 2 == 0
+* 5 % 2 == 1
+* 6 % 2 == 0
+* 7 % 2 == 1
+* 8 % 2 == 0
 
 With these expressions in mind, create a function called is_even that meets
 the following conditions:
