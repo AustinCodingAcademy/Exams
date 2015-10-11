@@ -357,7 +357,7 @@ Answer:
 
 ### Problem
 
-What is the output of the following program?
+What will the following program print?
 
     <?php
 
@@ -396,7 +396,7 @@ Answer:
 
 ### Problem
 
-What is the output of the following program?
+What will the following program print?
 
     <?php
         $name = "Bob";
@@ -797,8 +797,158 @@ Answer:
 Section 6 - Conditionals
 ------------------------
 
-Section 7 - CSV
----------------
-
-Section 8 - Functions
+Section 7 - Functions
 ---------------------
+
+### Problem
+
+Explain the difference between a function definition and a function call
+
+Answer:
+
+
+
+### Problem
+
+A coworker approaches you with difficulty they're having with their code.
+
+    <?php
+
+        function addit($x, $y){
+            echo $x + $y;
+        }
+
+        $z = addit(2,3) + 10;
+        echo $z;
+
+    ?>
+
+Your coworker expected the program to print "15", but the program printed out
+"510".  Explain why the program did not print "15".
+
+Answer:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Problem
+
+What will the following program print?
+
+    <?php
+
+        function say_a(){
+            echo "A";
+        }
+        function say_b(){
+            say_a();
+            echo "B";
+        }
+        function say_c(){
+            say_a();
+            say_b();
+            echo "C";
+        }
+
+        say_c();
+        say_c();
+
+    ?>
+
+Answer:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Problem
+
+What will the following program print?
+
+
+    <?php
+
+        function math_it($x, $y){
+            if($x < $y){
+                return $x * $y;
+            }
+            else{
+                return $x + $y;
+            }
+        }
+
+        math_it(5,5);
+
+    ?>
+
+Answer:
+
+
+
+
+### Problem
+
+What will the following program print?
+
+
+    <?php
+
+        function overwrite($x, $y){
+            $x = 10;
+            return $x + $y;
+        }
+
+        $x = 5;
+        $y = 10;
+
+        echo "x: $x<br>";
+        echo "y: $y<br>";
+        echo overwrite($x, $y);
+
+    ?>
+
+Answer:
+
+
+
+
+### Problem
+
+Observe the following true PHP expressions:
+
+* 1 % 2 == false
+* 2 % 2 == true
+* 3 % 2 == false
+* 4 % 2 == true
+* 5 % 2 == false
+* 6 % 2 == true
+* 7 % 2 == false
+* 8 % 2 == true
+
+With these expressions in mind, create a function called is_even that meets
+the following conditions:
+
+1. The function takes a single argument, which will be an integer
+2. The function should return true if that integer is even
+3. The function should return false if that integer is odd
+
+Answer:
