@@ -931,6 +931,11 @@ Answer:
 
 
 
+
+
+
+
+
 ### Problem
 
 Observe the following true PHP expressions:
@@ -952,3 +957,18 @@ the following conditions:
 3. The function should return false if that integer is odd
 
 Answer:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
