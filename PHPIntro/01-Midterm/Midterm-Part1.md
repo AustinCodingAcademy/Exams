@@ -25,7 +25,7 @@ Set the email subject as `PHP Intro Midterm - Part 1`
 Section 0 - Miscellaneous
 -------------------------
 
-### Problem
+### Problem 1
 
 For each code example, what will the code output when run?
 
@@ -82,7 +82,7 @@ Answer:
 
 
 
-### Problem
+### Problem 2
 
 Look at the below code sample.
 
@@ -120,7 +120,7 @@ Look at the below code sample.
    Answer:
 
 
-### Problem
+### Problem 3
 
 Write PHP code to assign a value to the following variables (just pick an appropriate value):
 
@@ -144,7 +144,7 @@ Write PHP code to assign a value to the following variables (just pick an approp
    Answer:
 
 
-### Problem
+### Problem 4
 
 Come up with an example variable name and value for the following applications.
 Then use the `echo` command to print out a sentence that uses the variable.
@@ -180,7 +180,7 @@ Then use the `echo` command to print out a sentence that uses the variable.
 
 
 
-### Problem
+### Problem 5
 
 For the following code excerpts, describe the error in each one.
 
@@ -268,7 +268,7 @@ For the following code excerpts, describe the error in each one.
 Section 1 - Data types
 ----------------------
 
-### Problem
+### Problem 6
 
 For each of the following data types, provide 2 example values:
 
@@ -308,7 +308,7 @@ Answer:
     2)
 
 
-### Problem
+### Problem 7
 
 For each of the following situations, select the data type that best represents
 the situation:
@@ -340,7 +340,7 @@ d) The price of a product after tax
 Section 2 - Variables
 ---------------------
 
-### Problem
+### Problem 8
 
 What will the following program print?
 
@@ -359,7 +359,7 @@ Answer:
 
 
 
-### Problem
+### Problem 9
 
 For each statement, create a variable assignment that clearly represents the
 situation. Fill in the blanks provided.
@@ -409,7 +409,7 @@ e) The class's topics include PHP, MySQL and HTML
 Section 3 - Operators
 ---------------------
 
-### Problem
+### Problem 10
 
 What is the output of the following program?
 
@@ -426,7 +426,7 @@ Answer:
 
 
 
-### Problem
+### Problem 11
 
 Create two string variables `$s1` and `$s2`. Assign the concatenation of the two
 strings to a variable `$s3`
@@ -468,7 +468,7 @@ Answer:
 Section 4 - Getting in and out of PHP
 -------------------------------------
 
-### Problem
+### Problem 12
 
 a) What do you have to type to get into PHP mode so you can type PHP code?
 
@@ -485,7 +485,7 @@ Answer:
 
 
 
-### Problem
+### Problem 13
 
 Is the following legal PHP code? Why or why not?
 
@@ -506,7 +506,7 @@ Answer:
 Section 5 - Arrays
 ------------------
 
-### Problem
+### Problem 14
 
 Explain the difference between a sequential array and an associative array
 
@@ -517,7 +517,7 @@ Answer:
 
 
 
-### Problem
+### Problem 15
 
 Define the following terms:
 
@@ -545,7 +545,7 @@ Definition:
 
 
 
-### Problem
+### Problem 16
 
 a) What function can you use to see how many elements are in an array?
 
@@ -560,7 +560,7 @@ Answer:
 
 
 
-### Problem
+### Problem 17
 
 a) How do you access the element of an array named $nums located at index $n?
 
@@ -575,7 +575,7 @@ Answer:
 
 
 
-### Problem
+### Problem 18
 
 Consider the following array
 
@@ -609,7 +609,7 @@ e) `$arr[ count($arr)-1 ]`
 Answer:
 
 
-### Problem
+### Problem 19
 
 For each of the pieces of data, create an array that best represents the data.
 Assign the array to an appropriately named variable.
@@ -626,7 +626,7 @@ Answer:
 
 
 
-### Problem
+### Problem 20
 
 For the following array, write code that could be used to
 retrieve the requested values within the array:
@@ -668,7 +668,7 @@ Section 6 - Conditionals
 ------------------------
 
 
-### Problem
+### Problem 21
 
 Given the following code snippet...
 
@@ -699,7 +699,7 @@ c) "dolphin" ?
 Answer:
 
 
-### Problem
+### Problem 22
 
 What will the following code output?
 
@@ -724,14 +724,14 @@ Answer:
 Section 7 - CSVs
 ----------------
 
-### Problem
+### Problem 23
 
 What are CSV files?  What are they used for?
 
 Answer:
 
 
-### Problem
+### Problem 24
 
 In class, we used 2 different methods to import a CSV file into our PHP code as an array.
 The 1st method we used produced a sequential array of sequential arrays.
@@ -747,7 +747,7 @@ Answer:
 Section 8 - Functions
 ---------------------
 
-### Problem
+### Problem 25
 
 Observe the following function:
 
@@ -784,7 +784,7 @@ d) (Extra Credit) What is the return value of `greaterOfTwo(5,5)`?
 Answer:
 
 
-### Problem
+### Problem 26
 
 What will the following program print?
 
@@ -809,7 +809,7 @@ Answer:
 
 
 
-### Problem
+### Problem 27
 
 What will the following program print?
 
