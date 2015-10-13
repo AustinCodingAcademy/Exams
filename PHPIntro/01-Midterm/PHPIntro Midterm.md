@@ -1,5 +1,27 @@
-PHPIntro Back End MidTerm
-=========================
+PHPIntro Back End MidTerm - Part 1
+==================================
+
+Instructions
+------------
+
+This portion of the test is to be completed **without notes**. Notes include
+
+* previous assignments
+* examples from in class
+* anything from the internet
+* etc
+
+Create a text file called `midterm_part1.txt`. Answers to the questions should
+be placed in this document.
+
+After you have completed this portion of the midterm, attach the `midterm_part1.txt` file
+in an email to the following addresses:
+
+* [ryan@austincodingacademy.com](mailto:ryan@austincodingacademy.com)
+* [joe@austincodingacademy.com](mailto:joe@austincodingacademy.com)
+* [clofton@austincodingacademy.com](mailto:clofton@austincodingacademy.com)
+
+Set the email subject as `PHP Intro Midterm - Part 1`
 
 Section 0 - Miscellaneous
 -------------------------
