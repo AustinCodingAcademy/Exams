@@ -519,6 +519,8 @@ Answer:
 
 
 
+        _________________
+
 3) When surveyed, the students responded with the following data:
 
     Bob thought the class was 10/10 effective
@@ -534,10 +536,14 @@ Answer:
     and said "It was awesome! I want to take the next class!"
 
 Answer:
-
-
-
-
+        
+        
+        
+        
+        
+        
+         _______________       
+        
 ### Problem
 
 For the following array, write code that could be used to
@@ -591,11 +597,11 @@ Given the following code snippet...
 
 ...what will it output if the value of $animal is...
 
-* "whale" ?
+* `"whale"` ?
 
-* "elephant" ?
+* `"elephant"` ?
 
-* "peacock" ?
+* `"dolphin"` ?
 
 
 
