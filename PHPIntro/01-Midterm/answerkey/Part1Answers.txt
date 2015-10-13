@@ -46,7 +46,7 @@ a)
         echo "Hello World";
         ?>
 
-Answer:
+Answer: Hello World
 
 
 b)
@@ -56,7 +56,7 @@ b)
         echo "Hello $which_world";
         ?>
 
-Answer:
+Answer: Hello Earth
 
 
 c)
@@ -66,7 +66,7 @@ c)
         echo 'Hello $which_world';
         ?>
 
-Answer:
+Answer: Hello $which_world
 
 
 d)
@@ -79,7 +79,7 @@ d)
         echo "My name is $name, and I love to $verb1, $verb2 and $verb3!";
         ?>
 
-Answer:
+Answer: My name is Ryan, and I love to code, teach, and play music!
 
 
 e)
@@ -89,7 +89,7 @@ e)
         echo "Hello! My name is" . $name;
         ?>
 
-Answer:
+Answer: Hello! My name isJames
 
 
 
@@ -118,17 +118,17 @@ Look at the below code sample.
 
    a) "Javascript"
 
-   Answer:
+   Answer: Javascript is a Client-side scripting language.
 
 
    b) "English"
 
-   Answer:
+   Answer: English is a  human language.
 
 
    c) "Piglatin"
 
-   Answer:
+   Answer: Piglatin is a unknown value.
 
 
 ### Problem 3
@@ -137,22 +137,22 @@ Write PHP code to assign a value to the following variables (just pick an approp
 
    a) $name
 
-   Answer:
+   Answer: $name = "Joe";
 
 
    b) $cityOfBirth
 
-   Answer:
+   Answer: $cityOfBirth = "Tyler";
 
 
    c) $hobbies
 
-   Answer:
+   Answer: $hobbies = array('Playing games', 'coding');
 
 
    d) $favoriteMusic
 
-   Answer:
+   Answer: $favoriteMusic = "Downtempo";
 
 
 ### Problem 4
@@ -161,23 +161,22 @@ Come up with an example variable name and value for the following applications.
 
 a). Whether it is raining outside or not
 
-Answer:
+Answer: $is_raining = true;
 
 
 b) The user's average typing words per minute is 56
 
-Answer:
+Answer: $user_wpm = 56;
 
 
 c) It's 98.6 degrees outside
 
-Answer:
+Answer: $temperature = 98.6;
 
 
 d) The user's social security number is 555442232
 
-Answer:
-
+Answer: $ssn = "555442232";
 
 
 ### Problem 5
@@ -190,7 +189,7 @@ For the following code excerpts, describe the error in each one.
         echo hello world;
         ?>
 
-   Answer:
+   Answer: hello world needs to be surrounded in quotes
 
 
 
@@ -202,7 +201,7 @@ For the following code excerpts, describe the error in each one.
         echo "My favorite color is $favColor.";
         ?>
 
-   Answer:
+   Answer: The largest index of the $colors array is 3
 
 
 
@@ -216,7 +215,7 @@ For the following code excerpts, describe the error in each one.
         }
         ?>
 
-   Answer:
+   Answer: $x > 3 needs to be wrapped in parenthesis
 
 
 
@@ -228,7 +227,7 @@ For the following code excerpts, describe the error in each one.
         echo "I drive a $carBrands[0].";
         ?>
 
-   Answer:
+   Answer: There is no semicolon after the $carBrands array declaration
 
 
 
@@ -243,7 +242,7 @@ For the following code excerpts, describe the error in each one.
         }
         ?>
 
-   Answer:
+   Answer: $age = 21 should be $age == 21
 
 
 
@@ -259,7 +258,7 @@ For the following code excerpts, describe the error in each one.
         echo "I want to " . $todo[1] . " but I need to " . $todo[0] . " first!";
         ?>
 
-   Answer:
+   Answer: $todo is an associative array and does not contain 0 or 1 as keys
 
 
 
@@ -276,36 +275,36 @@ a) integer
 
 Answer:
 
-    1)
-    2)
+    1) 5
+    2) 3
 
 b) float (aka decimal numbers)
 
 Answer:
 
-    1)
-    2)
+    1) 2.2
+    2) 8.8
 
 c) boolean
 
 Answer:
 
-    1)
-    2)
+    1) true
+    2) false
 
 d) string
 
 Answer:
 
-    1)
-    2)
+    1) "hello"
+    2) "goodbye"
 
 e) array
 
 Answer:
 
-    1)
-    2)
+    1) array(5,2,3)
+    2) array("name" => "joe", "age" => 24)
 
 
 ### Problem 7
@@ -321,19 +320,19 @@ Examples:
 
 a) The text of a tweet or status update
 
-   Answer:
+   Answer: string
 
 b) The number of pizzas to order for the office
 
-   Answer:
+   Answer: integer
 
 C) A list of song genres to choose from for a service like Pandora or Spotify
 
-   Answer:
+   Answer: array
 
 d) The price of a product after tax
 
-   Answer:
+   Answer: float
 
 
 
@@ -357,6 +356,8 @@ What will the following program print?
 
 Answer:
 
+x is 3
+y is 3
 
 
 ### Problem 9
@@ -368,7 +369,7 @@ a) Joe's favorite hobby is going to the arcade
 
     <?php
 
-        $joesFavHobby = __________________________;
+        $joesFavHobby = "Going to the arcade";
 
     ?>
 
@@ -377,7 +378,7 @@ b) The capital of Texas is Austin
     <?php
 
         $capitals['Massachusetts'] = "Boston";
-        __________________________ = "Austin";
+        $capitals['Texas'] = "Austin";
 
     ?>
 
@@ -385,7 +386,7 @@ c) The post got 10 likes
 
     <?php
 
-        _____________ = ________________;
+        $numLikes = 10;
 
     ?>
 
@@ -393,7 +394,7 @@ d) The user has 5 unread messages
 
     <?php
 
-        _____________ = ________________;
+        $numUnreadMessages = 5;
 
     ?>
 
@@ -401,7 +402,7 @@ e) The class's topics include PHP, MySQL and HTML
 
     <?php
 
-        _____________ = __________________________________________;
+        $topics = array('PHP', 'MySQL', 'HTML');
 
     ?>
 
@@ -422,7 +423,8 @@ What is the output of the following program?
 
 Answer:
 
-
+PHP is agreat language for processing text
+But you need tobe careful about whitespace
 
 
 
@@ -433,8 +435,9 @@ strings to a variable `$s3`
 
 Answer:
 
-
-
+$s1 = "Joe ";
+$s2 = "McCullough";
+$s3 = $s1 . $s2;
 
 
 ### Extra Credit Problem
@@ -448,21 +451,21 @@ Observe the following code:
 
 a) What is the value of $x? What is its data type?
 
-Answer:
+Answer: 3.4, float
 
 
 
 b) What is the value of $y? What is its data type?
 
-Answer:
+Answer: "34", string
 
 
 
 c) If $x and $y are the same, explain why they are the same. If $y and $y are
 different, explain why they are different.
 
-Answer:
-
+Answer: Due to the space between 3 and 4, the `.` becomes concatenation
+instead of a decimal point.
 
 
 Section 4 - Getting in and out of PHP
@@ -474,16 +477,17 @@ a) What do you have to type to get into PHP mode so you can type PHP code?
 
 Answer:
 
+<?php
 
-
+?>
 
 b) What happens if you just type stuff directly into a .php file
 without typing that?
 
 Answer:
 
-
-
+The browser will display anything outside of the <?php ?> blocks as-is.
+Any php code not inside a <?php ?> block will not be executed.
 
 ### Problem 13
 
@@ -497,6 +501,9 @@ Is the following legal PHP code? Why or why not?
     ?>
 
 Answer:
+
+No. The markup should be outside of the php blocks, or the markup should be
+echod as a string.
 
 
 
@@ -512,9 +519,9 @@ Explain the difference between a sequential array and an associative array
 
 Answer:
 
-
-
-
+Sequential arrays are ordered arrays with elements, where each element has an
+index. An associative array is an array containing key value pairs. Order is
+generally not important in an associative array.
 
 
 ### Problem 15
@@ -523,40 +530,41 @@ Define the following terms:
 
 a) array element
 
-Definition:
+Definition: A specific value inside of a sequential array
 
 
 
 b) array key
 
-Definition:
+Definition: The identifier for a value in an associative array
 
 
 
 c) key-value pair
 
-Definition:
+Definition: An individual pairing of a key and its value in an associative
+array
 
 
 
 d) foreach loop
 
-Definition:
-
+Definition: A loop that performs a series of actions for each element in an
+array.
 
 
 ### Problem 16
 
 a) What function can you use to see how many elements are in an array?
 
-Answer:
+Answer: count
 
 
 
 b) Write PHP code that uses this function to echo how many elements are in
 an array called $grades.
 
-Answer:
+Answer: echo count($grades);
 
 
 
@@ -564,13 +572,15 @@ Answer:
 
 a) How do you access the element of an array named $nums located at index $n?
 
-Answer:
+Answer: $nums[$n];
 
 
 
 b) How do you access the last element of a (non-empty) array named $nums?
 
 Answer:
+
+$nums[count($nums)-1]
 
 
 
@@ -586,27 +596,27 @@ What are the values of the following expressions?
 
 a) `$arr[2]`
 
-Answer:
+Answer: 1
 
 
 b) `$arr[1] + $arr[3]`
 
-Answer:
+Answer: 5
 
 
 c) `$arr[0]`
 
-Answer:
+Answer: 5
 
 
 d) `count($arr)`
 
-Answer:
+Answer: 6
 
 
 e) `$arr[ count($arr)-1 ]`
 
-Answer:
+Answer: 6
 
 
 ### Problem 19
@@ -618,11 +628,32 @@ Assign the array to an appropriately named variable.
 
 Answer:
 
+$students = array("Bob", "Jill", "Jack", "Jaime");
+
 
 
 2) In the class, Bob got a 90, Jill got a 92, Jack got an 87 and Jaime got a 95.
 
 Answer:
+
+$class = array(
+    array(
+        "student_name" => "Bob",
+        "grade" => 90
+    ),
+    array(
+        "student_name" => "Jill",
+        "grade" => 92
+    ),
+    array(
+        "student_name" => "Jack",
+        "grade" => 87
+    ),
+    array(
+        "student_name" => "Jaime",
+        "grade" => 95
+    ),
+)
 
 
 
@@ -651,17 +682,17 @@ retrieve the requested values within the array:
 
 a) 'Sore Throat'
 
-Answer:
+Answer: $patients[0]['illness']
 
 
 b) '01:30 AM':
 
-Answer:
+Answer: $patients[1]['admittance_time']
 
 
 c) 'Hacker McHackerson':
 
-Answer:
+Answer: $patients[2]['name']
 
 
 Section 6 - Conditionals
@@ -686,17 +717,17 @@ Given the following code snippet...
 
 a) "whale" ?
 
-Answer:
+Answer: I am an animal and I have a spout!
 
 
 b) "elephant" ?
 
-Answer:
+Answer: I am an animal and I have a trunk!
 
 
 c) "dolphin" ?
 
-Answer:
+Answer: I am an animal
 
 
 ### Problem 22
@@ -719,6 +750,10 @@ What will the following code output?
 
 Answer:
 
+Some say the world will end in fire
+Some say in ice
+(Either would suffice)
+
 
 
 Section 7 - CSVs
@@ -728,7 +763,9 @@ Section 7 - CSVs
 
 What are CSV files?  What are they used for?
 
-Answer:
+Answer: Comma Separated Value files. They store tabular data in a format that
+can be easily exchanged between spreadsheet programs and programming
+languages.
 
 
 ### Problem 24
@@ -739,7 +776,9 @@ The 2nd method was a bit more complicated but it produced a sequential array of 
 
 Why would we want to use the 2nd method?  Why might the associative arrays be a more useful result?
 
-Answer:
+Answer: Using associative arrays with CSVs produce more readable code. This is
+because using keys to access values within the array is more explicit than
+using a seemingly arbitrary index number.
 
 
 
@@ -766,17 +805,17 @@ Observe the following function:
 
 a) What are the inputs (a.k.a. the arguments or parameters)?
 
-Answer:
+Answer: $x, $y
 
 
-b) What does this function do?
+c) What does this function do?
 
-Answer:
+Answer: Returns the larger value provided
 
 
-c) (Extra Credit) What is the return value of `greaterOfTwo(5,5)`?
+d) (Extra Credit) What is the return value of `greaterOfTwo(5,5)`?
 
-Answer:
+Answer: Nothing
 
 
 ### Problem 26
@@ -794,13 +833,17 @@ What will the following program print?
         $x = 5;
         $y = 10;
 
-        echo overwrite($x, $y) . "<br>;
+        echo overwrite($x, $y);
         echo "x: $x<br>";
         echo "y: $y<br>";
 
     ?>
 
 Answer:
+
+20
+x: 5
+y: 10
 
 
 
@@ -832,5 +875,5 @@ What will the following program print?
 Answer:
 
 
-
+AABCAABC
 
