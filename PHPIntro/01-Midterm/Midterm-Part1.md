@@ -4,6 +4,10 @@ PHPIntro Back End MidTerm - Part 1
 Instructions
 ------------
 
+Copy this text file to a file named YourName_Midterm_Part1.txt.
+For example, JoeMcCullough_Midterm_Part1.txt. You will provide your answers to
+the problems in the "Answer:" sections indicated.
+
 This portion of the test is to be completed **without notes**. Notes include
 
 * previous assignments
@@ -11,10 +15,14 @@ This portion of the test is to be completed **without notes**. Notes include
 * anything from the internet
 * etc
 
-Create a text file called `midterm_part1.txt`. Answers to the questions should
-be placed in this document.
+You are not allowed to execute php code in any form while taking this portion of
+the test. This includes
 
-After you have completed this portion of the midterm, attach the `midterm_part1.txt` file
+* from the browser
+* from the command line
+* from PHPStorm
+
+After you have completed this portion of the midterm, attach the .txt file
 in an email to the following addresses:
 
 * ryan@austincodingacademy.com
