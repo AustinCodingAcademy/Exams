@@ -765,6 +765,73 @@ and prints out each greeting on its own line.
 Write PHP Code that takes an array `$nums = array(5,3,1,2,5,8);` calculates the sum,
 (without using the builtin `array_sum` function), and prints out the result.
 
+### Coding Problem 3
+
+#### Preface
+
+PHP has a built in function named `strrev` which takes a string as an argument and
+returns the string provided in reverse. It does not alter the string variable passed
+in as the argument, but instead returns a new string.
+
+Observe the following program demonstrating use of `strrev`:
+
+```
+<?php
+    $s = "hello";
+    echo "$s<br>";
+    
+    strrev($s);
+    echo "$s<br>"; // $s will be unchanged at this point
+    
+    $backwards = strrev($s);
+    echo "$backwards<br>";
+?>
+```
+
+The output would be
+
+```
+hello
+hello
+olleh
+```
+
+#### Problem
+
+A palindrome is a string that is the same forwards and backwards.
+
+Examples of strings that are palindromes include:
+
+* mom
+* racecar
+* pop
+
+Examples of strings that are **not** palindromes include:
+
+* joe
+* computer
+* person
+
+#### Step 1
+
+Create a function called `is_palindrome` which takes a string in as an argument. The function should
+return `true` if the string provided is a palindrome, `false` otherwise.
+
+#### Step 2
+
+For each of the following strings, print out the string and whether it is a palindrome or not
+
+* joe
+* anna
+* computer
+* racecar
+* civic
+* stirs
+* hannah
+
+
+
+
 
 Section 10: Extra Credit
 ========================
