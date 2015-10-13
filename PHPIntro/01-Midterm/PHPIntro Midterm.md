@@ -8,36 +8,36 @@ Section 0 - Miscellaneous
 
 For each code example, what will the code output when run?
 
-    a)
+a)
 
         <?php
         echo "Hello World";
         ?>
 
-    Answer:
+Answer:
 
 
-    b)
+b)
 
         <?php
         $which_world = "Earth";
         echo "Hello $which_world";
         ?>
 
-    Answer:
+Answer:
 
 
-    c)
+c)
 
         <?php
         $which_world = "Earth";
         echo 'Hello $which_world';
         ?>
 
-    Answer:
+Answer:
 
 
-    d)
+d)
 
         <?php
         $name = "Ryan";
@@ -47,17 +47,17 @@ For each code example, what will the code output when run?
         echo "My name is $name, and I love to $verb1, $verb2 and $verb3!";
         ?>
 
-    Answer:
+Answer:
 
 
-    e)
+e)
 
         <?php
         $name = "James";
         echo "Hello! My name is" . $name;
         ?>
 
-    Answer:
+Answer:
 
 
 
