@@ -17,9 +17,8 @@ be placed in this document.
 After you have completed this portion of the midterm, attach the `midterm_part1.txt` file
 in an email to the following addresses:
 
-* [ryan@austincodingacademy.com](mailto:ryan@austincodingacademy.com)
-* [joe@austincodingacademy.com](mailto:joe@austincodingacademy.com)
-* [clofton@austincodingacademy.com](mailto:clofton@austincodingacademy.com)
+* ryan@austincodingacademy.com
+* joe@austincodingacademy.com
 
 Set the email subject as `PHP Intro Midterm - Part 1`
 
@@ -104,19 +103,19 @@ Look at the below code sample.
         echo "$language is a $what.";
         ?>
 
-   ...Given that code sample, what will be the output if the variable `$site` has the value:
+   ...Given that code sample, what will be the output if the variable `$language` has the value:
 
-   a) `"Javascript"`
-
-   Answer:
-
-
-   b) `"English"`
+   a) "Javascript"
 
    Answer:
 
 
-   c) `"Piglatin"`
+   b) "English"
+
+   Answer:
+
+
+   c) "Piglatin"
 
    Answer:
 
@@ -125,40 +124,75 @@ Look at the below code sample.
 
 Write PHP code to assign a value to the following variables (just pick an appropriate value):
 
-   a) `$name`
+   a) $name
 
-   b) `$cityOfBirth`
+   Answer:
 
-   c) `$hobbies`
 
-   d) `$favoriteMusic`
+   b) $cityOfBirth
+
+   Answer:
+
+
+   c) $hobbies
+
+   Answer:
+
+
+   d) $favoriteMusic
+
+   Answer:
 
 
 ### Problem
 
-Come up with 2 or 3 example variable names and values for the following applications,
-and then use the `echo` command to print out a sentence that uses the variables' values:
+Come up with an example variable name and value for the following applications.
+Then use the `echo` command to print out a sentence that uses the variable.
 
    a) A calendar
 
+   Answer:
+
+
+
    b) A discussion forum
+
+   Answer:
+
+
 
    c) An office inventory system
 
+   Answer:
+
+
+
    d) An email spam filter
 
+   Answer:
+
+
+
    e) A fitness or health-monitoring app
+
+   Answer:
+
+
 
 
 ### Problem
 
-For the following code excerpts, find and correct the error in each one.
+For the following code excerpts, describe the error in each one.
 
    a)
 
         <?php
         echo hello world;
         ?>
+
+   Answer:
+
+
 
    b)
 
@@ -167,6 +201,11 @@ For the following code excerpts, find and correct the error in each one.
         $favColor = $colors[4];
         echo "My favorite color is $favColor.";
         ?>
+
+   Answer:
+
+
+
 
    c)
 
@@ -177,12 +216,22 @@ For the following code excerpts, find and correct the error in each one.
         }
         ?>
 
+   Answer:
+
+
+
+
    d)
 
         <?php
         $carBrands = array('Honda','Toyota','Ford','VW')
         echo "I drive a $carBrands[0].";
         ?>
+
+   Answer:
+
+
+
 
    e)
 
@@ -193,6 +242,11 @@ For the following code excerpts, find and correct the error in each one.
             echo "Yay, you can drink alcohol now!";
         }
         ?>
+
+   Answer:
+
+
+
 
    f)
 
@@ -205,6 +259,11 @@ For the following code excerpts, find and correct the error in each one.
         echo "I want to " . $todo[1] . " but I need to " . $todo[0] . " first!";
         ?>
 
+   Answer:
+
+
+
+
 
 Section 1 - Data types
 ----------------------
@@ -213,27 +272,37 @@ Section 1 - Data types
 
 For each of the following data types, provide 2 example values:
 
-a) integer:
+a) integer
+
+Answer:
 
     1)
     2)
 
-b) float (aka decimal numbers):
+b) float (aka decimal numbers)
+
+Answer:
 
     1)
     2)
 
-c) boolean:
+c) boolean
+
+Answer:
 
     1)
     2)
 
-d) string:
+d) string
+
+Answer:
 
     1)
     2)
 
-e) array:
+e) array
+
+Answer:
 
     1)
     2)
@@ -244,28 +313,25 @@ e) array:
 For each of the following situations, select the data type that best represents
 the situation:
 
-    Examples:
+Examples:
 
-    Question: "The number of kids a person has"
+    Question: The number of kids a person has
     Answer: integer
 
-    Question: "The name of a restaurant"
-    Answer: string
 
-
-1. The text of a tweet or status update
+a) The text of a tweet or status update
 
    Answer:
 
-2. The number of pizzas to order for the office
+b) The number of pizzas to order for the office
 
    Answer:
 
-3. A list of song genres to choose from for a service like Pandora or Spotify
+C) A list of song genres to choose from for a service like Pandora or Spotify
 
    Answer:
 
-4. The price of a product after tax
+d) The price of a product after tax
 
    Answer:
 
@@ -296,9 +362,9 @@ Answer:
 ### Problem
 
 For each statement, create a variable assignment that clearly represents the
-situation:
+situation. Fill in the blanks provided.
 
-1. Joe's favorite hobby is going to the arcade
+a) Joe's favorite hobby is going to the arcade
 
     <?php
 
@@ -306,7 +372,7 @@ situation:
 
     ?>
 
-2. The capital of Texas is Austin
+b) The capital of Texas is Austin
 
     <?php
 
@@ -315,7 +381,7 @@ situation:
 
     ?>
 
-3. The post got 10 likes
+c) The post got 10 likes
 
     <?php
 
@@ -323,7 +389,7 @@ situation:
 
     ?>
 
-4. The user has 5 unread messages
+d) The user has 5 unread messages
 
     <?php
 
@@ -331,7 +397,7 @@ situation:
 
     ?>
 
-5. The class's topics include PHP, MySQL and HTML
+e) The class's topics include PHP, MySQL and HTML
 
     <?php
 
@@ -357,12 +423,18 @@ What is the output of the following program?
 Answer:
 
 
+
+
+
 ### Problem
 
 Create two string variables `$s1` and `$s2`. Assign the concatenation of the two
 strings to a variable `$s3`
 
 Answer:
+
+
+
 
 
 ### Extra Credit Problem
@@ -374,11 +446,22 @@ Observe the following code:
         $y = 3 . 4;
     ?>
 
-What are the values of `$x` and `$y`? What is the data type of `$x`? What is the
-data type of `$y`?  Explain why they are different.
+a) What is the value of $x? What is its data type?
 
 Answer:
 
+
+
+b) What is the value of $y? What is its data type?
+
+Answer:
+
+
+
+c) If $x and $y are the same, explain why they are the same. If $y and $y are
+different, explain why they are different.
+
+Answer:
 
 
 
@@ -387,15 +470,19 @@ Section 4 - Getting in and out of PHP
 
 ### Problem
 
-What do you have to type to get into PHP mode so you can type PHP code?
+a) What do you have to type to get into PHP mode so you can type PHP code?
 
 Answer:
 
 
-What happens if you just type stuff directly into a .php file
+
+
+b) What happens if you just type stuff directly into a .php file
 without typing that?
 
 Answer:
+
+
 
 
 ### Problem
@@ -434,25 +521,25 @@ Answer:
 
 Define the following terms:
 
-1) array element
+a) array element
 
 Definition:
 
 
 
-3) array key
+b) array key
 
 Definition:
 
 
 
-4) key-value pair
+c) key-value pair
 
 Definition:
 
 
 
-5) foreach loop
+d) foreach loop
 
 Definition:
 
@@ -460,26 +547,14 @@ Definition:
 
 ### Problem
 
-What function can you use to see how many elements are in an array?
-
-Answer:
-
-
-Write PHP code that uses this function to figure out how many elements are in
-an array called `$grades`.
+a) What function can you use to see how many elements are in an array?
 
 Answer:
 
 
 
-### Problem
-
-How do you access an element of an array?
-
-Answer:
-
-
-So for example, how would you access the first element of an array called `$emails`?
+b) Write PHP code that uses this function to echo how many elements are in
+an array called $grades.
 
 Answer:
 
@@ -487,14 +562,16 @@ Answer:
 
 ### Problem
 
-How can you find the last element of an array?
+a) How do you access the element of an array named $nums located at index $n?
 
 Answer:
 
 
-So for example, given an array `$hobbies`, write code that gets the last element of it.
+
+b) How do you access the last element of a (non-empty) array named $nums?
 
 Answer:
+
 
 
 
@@ -509,19 +586,27 @@ What are the values of the following expressions?
 
 a) `$arr[2]`
 
+Answer:
+
 
 b) `$arr[1] + $arr[3]`
+
+Answer:
 
 
 c) `$arr[0]`
 
+Answer:
+
 
 d) `count($arr)`
+
+Answer:
 
 
 e) `$arr[ count($arr)-1 ]`
 
-
+Answer:
 
 
 ### Problem
@@ -534,43 +619,13 @@ Assign the array to an appropriately named variable.
 Answer:
 
 
+
 2) In the class, Bob got a 90, Jill got a 92, Jack got an 87 and Jaime got a 95.
 
 Answer:
-        
-    |            
-    |            
-    |            
-    |            
-    |            
-    |    
 
-3) When surveyed, the students responded with the following data:
 
-    Bob thought the class was 10/10 effective
-    and said "I enjoyed it and learned a lot!".
 
-    Jill thought the class was 8/10 effective
-    and said "It was a little easy and slow."
-
-    Jack thought the class was 5/10 effective
-    and said "It started great but got confusing."
-
-    Jaime thought the class was 9/10 effective
-    and said "It was awesome! I want to take the next class!"
-
-Answer:
-        
-    |            
-    |            
-    |            
-    |            
-    |            
-    |    
-    |            
-    |            
-    |    
-        
 ### Problem
 
 For the following array, write code that could be used to
@@ -594,14 +649,19 @@ retrieve the requested values within the array:
         )
     )
 
-1) 'Sore Throat': ___________________
+a) 'Sore Throat'
 
-2) '01:30 AM': ___________________
-
-3) 'Hacker McHackerson': ___________________
+Answer:
 
 
+b) '01:30 AM':
 
+Answer:
+
+
+c) 'Hacker McHackerson':
+
+Answer:
 
 
 Section 6 - Conditionals
@@ -624,13 +684,19 @@ Given the following code snippet...
 
 ...what will it output if the value of $animal is...
 
-* `"whale"` ?
+a) "whale" ?
 
-* `"elephant"` ?
-
-* `"dolphin"` ?
+Answer:
 
 
+b) "elephant" ?
+
+Answer:
+
+
+c) "dolphin" ?
+
+Answer:
 
 
 ### Problem
@@ -672,7 +738,10 @@ The 1st method we used produced a sequential array of sequential arrays.
 The 2nd method was a bit more complicated but it produced a sequential array of associative arrays.
 
 Why would we want to use the 2nd method?  Why might the associative arrays be a more useful result?
-Give examples if you can.
+
+Answer:
+
+
 
 
 Section 8 - Functions
@@ -699,13 +768,16 @@ a) What are the inputs (a.k.a. the arguments or parameters)?
 
 Answer:
 
+
 b) What are the possible return values?
 
 Answer:
 
+
 c) What does this function do?
 
 Answer:
+
 
 d) (Extra Credit) What is the return value of `greaterOfTwo(5,5)`?
 
@@ -714,58 +786,56 @@ Answer:
 
 ### Problem
 
-Given the following code snippets, create a function out of them with an appropriate name
-based on what the code snippet does (a.k.a. write a Function Definition).
+What will the following program print?
 
-Then, after you've created the function definition, write an extra
-line of code that actually *uses* the function (a.k.a. a Function Call).
-
-a)
 
     <?php
-    if ($age >= 21) {
-        echo "Congrats, you can drink alcohol!\n";
-    }
-    else {
-        echo "Congrats, you can drink chocolate milk!\n";
-    }
+
+        function overwrite($x, $y){
+            $x = 10;
+            return $x + $y;
+        }
+
+        $x = 5;
+        $y = 10;
+
+        echo overwrite($x, $y);
+        echo "x: $x<br>";
+        echo "y: $y<br>";
+
     ?>
 
-    Function Definition:
+Answer:
 
 
 
+### Problem
 
-
-
-
-    Function Call:
-
-
-
-
-
-
-b)
+What will the following program print?
 
     <?php
-    if (count($array) > 10) {
-        echo "That's a big array!";
-    }
-    elseif (count($array) > 5) {
-        echo "Meh, that array is kinda medium";
-    }
-    else {
-        echo "That array is small potatoes...";
-    }
+
+        function say_a(){
+            echo "A";
+        }
+        function say_b(){
+            say_a();
+            echo "B";
+        }
+        function say_c(){
+            say_a();
+            say_b();
+            echo "C";
+        }
+
+        say_c();
+        say_c();
+
     ?>
 
-    Function Definition:
 
+Answer:
 
-
-
-    Function Call:
 
 
 
