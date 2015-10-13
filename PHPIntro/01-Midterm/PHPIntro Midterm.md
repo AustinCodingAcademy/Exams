@@ -516,12 +516,12 @@ Answer:
 
 Answer:
         
-|            
-|            
-|            
-|            
-|            
-|    
+    |            
+    |            
+    |            
+    |            
+    |            
+    |    
 
 3) When surveyed, the students responded with the following data:
 
@@ -539,15 +539,15 @@ Answer:
 
 Answer:
         
-|            
-|            
-|            
-|            
-|            
-|    
-|            
-|            
-|    
+    |            
+    |            
+    |            
+    |            
+    |            
+    |    
+    |            
+    |            
+    |    
         
 ### Problem
 
