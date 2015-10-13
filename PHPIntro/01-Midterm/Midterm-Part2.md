@@ -99,8 +99,8 @@ For each of the following strings, print out the string and whether it is a pali
 
 
 
-Section 10: Extra Credit
-========================
+Extra Credit
+============
 
 ### Extra Credit Problem 1
 
