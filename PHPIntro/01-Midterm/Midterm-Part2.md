@@ -4,24 +4,18 @@ PHPIntro Back End MidTerm - Part 2
 Instructions
 ------------
 
-This portion of the test is to be completed **without notes**. Notes include
+This portion of the test is to be completed with full access to your notes and the internet. Use all of your resources to complete these problems. 
 
-* previous assignments
-* examples from in class
-* anything from the internet
-* etc
+Create a new php file for each problem. Name your files with the following format: Last Name + Problem Number. 
 
-Create a text file called midterm_part1.txt. Answers to the questions should
-be placed in this document.
+For example MurphyProblem1.php, MurphyProblem2.php etc. 
 
-After you have completed this portion of the midterm, attach the `midterm_part1.txt` file
-in an email to the following addresses:
+After you have completed this portion of the midterm, attach all of the files to an email and send it to:
 
 * ryan@austincodingacademy.com
 * joe@austincodingacademy.com
-* clofton@austincodingacademy.com
 
-Set the email subject as `PHP Intro Midterm - Part 1`
+Set the email subject as `PHP Intro Midterm - Part 2`
 
 Problems
 --------
