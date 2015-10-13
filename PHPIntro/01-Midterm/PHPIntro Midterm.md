@@ -515,11 +515,13 @@ Answer:
 2) In the class, Bob got a 90, Jill got a 92, Jack got an 87 and Jaime got a 95.
 
 Answer:
-
-
-
-
-        _________________
+        
+    .        
+    .        
+    .        
+    .        
+    .        
+    .
 
 3) When surveyed, the students responded with the following data:
 
@@ -537,12 +539,12 @@ Answer:
 
 Answer:
         
-        
-        
-        
-        
-        
-         _______________       
+    .        
+    .        
+    .        
+    .        
+    .        
+    .
         
 ### Problem
 
