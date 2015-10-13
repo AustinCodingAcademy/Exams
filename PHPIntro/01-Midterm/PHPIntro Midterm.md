@@ -94,7 +94,7 @@ Look at the below code sample.
    Answer:
 
 
-   c) `"Spanish"`
+   c) `"Piglatin"`
 
    Answer:
 
