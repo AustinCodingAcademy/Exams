@@ -84,19 +84,19 @@ Look at the below code sample.
 
    ...Given that code sample, what will be the output if the variable `$site` has the value:
 
-    a) `"Javascript"`
+   a) `"Javascript"`
 
-    Answer:
-
-
-    b) `"English"`
-
-    Answer:
+   Answer:
 
 
-    c) `"Spanish"`
+   b) `"English"`
 
-    Answer:
+   Answer:
+
+
+   c) `"Spanish"`
+
+   Answer:
 
 
 ### Problem
