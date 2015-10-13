@@ -22,6 +22,9 @@ in an email to the following addresses:
 
 Set the email subject as `PHP Intro Midterm - Part 1`
 
+!!!! WARNING !!!! - You will not be able to make revisions to your answers on
+Part 1 after you have started Part 2.
+
 Section 0 - Miscellaneous
 -------------------------
 

@@ -34,9 +34,7 @@ Topics covered
 Administering the exam
 ----------------------
 
-* This exam should be administered **in class**
-* Part 1 of the exam is hand written. No computers are allowed during this
-  portion of the exam. Students must hand in Part 1 of the exam before they
-  can begin Part 2.
-* Part 2 of the exam is coded. Use of all available notes and resources,
-  including the internet, is allowed.
+1. Send out email to all students containing part 1
+2. Go over instructions with students
+3. Students submit part 1 via email, and are then provided with part 2 via email.
+4. Students cannot make adjustments to part 1 once they have begun part 2
