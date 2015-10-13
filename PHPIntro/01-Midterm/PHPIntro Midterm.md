@@ -103,42 +103,42 @@ Look at the below code sample.
 
 Write PHP code to assign a value to the following variables (just pick an appropriate value):
 
-    a) `$name`
+   a) `$name`
 
-    b) `$cityOfBirth`
+   b) `$cityOfBirth`
 
-    b) `$hobbies`
+   c) `$hobbies`
 
-    c) `$favoriteMusic`
+   d) `$favoriteMusic`
 
 
 ### Problem
 
-Come up with 3 example variable names and values for the following applications,
+Come up with 2 or 3 example variable names and values for the following applications,
 and then use the `echo` command to print out a sentence that uses the variables' values:
 
-    a) A calendar
+   a) A calendar
 
-    b) A discussion forum
+   b) A discussion forum
 
-    c) An office inventory system
+   c) An office inventory system
 
-    d) An email spam filter
+   d) An email spam filter
 
-    e) A fitness or health-monitoring app
+   e) A fitness or health-monitoring app
 
 
 ### Problem
 
 For the following code excerpts, find and correct the error in each one.
 
-    a)
+   a)
 
         <?php
         echo hello world;
         ?>
 
-    b)
+   b)
 
         <?php
         $colors = array('purple','brown','blue','orange');
@@ -146,7 +146,7 @@ For the following code excerpts, find and correct the error in each one.
         echo "My favorite color is $favColor.";
         ?>
 
-    b)
+   c)
 
         <?php
         $x = 3;
@@ -155,14 +155,14 @@ For the following code excerpts, find and correct the error in each one.
         }
         ?>
 
-    d)
+   d)
 
         <?php
         $carBrands = array('Honda','Toyota','Ford','VW')
         echo "I drive a $carBrands[0].";
         ?>
 
-    e)
+   e)
 
         <?php
         $birthYear = 1983;
@@ -172,7 +172,7 @@ For the following code excerpts, find and correct the error in each one.
         }
         ?>
 
-    f)
+   f)
 
         <?php
         $todo = array(
