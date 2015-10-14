@@ -458,7 +458,7 @@ Answer:
 
 
 
-c) If $x and $y are the same, explain why they are the same. If $y and $y are
+c) If $x and $y are the same, explain why they are the same. If $x and $y are
 different, explain why they are different.
 
 Answer:
