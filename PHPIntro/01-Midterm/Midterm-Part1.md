@@ -704,7 +704,7 @@ Answer:
 What will the following code output?
 
     <?php
-    $x = 5
+    $x = 5;
     if ($x > 3) {
         echo "Some say the world will end in fire<br>";
     }
