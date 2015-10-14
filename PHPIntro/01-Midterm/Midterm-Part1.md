@@ -794,7 +794,7 @@ What will the following program print?
         $x = 5;
         $y = 10;
 
-        echo overwrite($x, $y) . "<br>;
+        echo overwrite($x, $y) . "<br>";
         echo "x: $x<br>";
         echo "y: $y<br>";
 
