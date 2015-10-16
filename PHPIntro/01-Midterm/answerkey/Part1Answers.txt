@@ -87,7 +87,7 @@ d)
         echo "My name is $name, and I love to $verb1, $verb2 and $verb3!";
         ?>
 
-Answer: My name is Ryan, and I love to code, teach, and play music!
+Answer: My name is Ryan, and I love to code, teach and play music!
 
 Objectives:
 
