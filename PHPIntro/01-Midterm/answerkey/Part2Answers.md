@@ -25,7 +25,10 @@ Problems
 Write PHP Code that takes an array `$greetings = array("hello", "howdy", "yo!", "what up!")`
 and prints out each greeting on its own line.
 
+#### Source code
+
 ```php
+
 <?php
 
 $greetings = array("hello", "howdy", "yo!", "what up!");
@@ -34,7 +37,12 @@ foreach($greetings as $greeting){
 }
 
 ?>
+
 ```
+
+#### Output
+
+[prob1.html](test.html)
 
 
 ### Coding Problem 2
