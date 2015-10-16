@@ -458,7 +458,7 @@ Answer:
 
 
 
-c) If $x and $y are the same, explain why they are the same. If $y and $y are
+c) If $x and $y are the same, explain why they are the same. If $x and $y are
 different, explain why they are different.
 
 Answer:
@@ -704,7 +704,7 @@ Answer:
 What will the following code output?
 
     <?php
-    $x = 5
+    $x = 5;
     if ($x > 3) {
         echo "Some say the world will end in fire<br>";
     }
@@ -794,7 +794,7 @@ What will the following program print?
         $x = 5;
         $y = 10;
 
-        echo overwrite($x, $y) . "<br>;
+        echo overwrite($x, $y) . "<br>";
         echo "x: $x<br>";
         echo "y: $y<br>";
 

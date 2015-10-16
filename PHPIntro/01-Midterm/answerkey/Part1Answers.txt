@@ -58,6 +58,10 @@ b)
 
 Answer: Hello Earth
 
+Objectives:
+
+* strings
+
 
 c)
 
@@ -67,6 +71,10 @@ c)
         ?>
 
 Answer: Hello $which_world
+
+Objectives:
+
+* strings
 
 
 d)
@@ -79,8 +87,11 @@ d)
         echo "My name is $name, and I love to $verb1, $verb2 and $verb3!";
         ?>
 
-Answer: My name is Ryan, and I love to code, teach, and play music!
+Answer: My name is Ryan, and I love to code, teach and play music!
 
+Objectives:
+
+* Variable substitution into double quoted strings
 
 e)
 
@@ -91,7 +102,9 @@ e)
 
 Answer: Hello! My name isJames
 
+Objectives:
 
+* String concatenation
 
 ### Problem 2
 
@@ -116,6 +129,10 @@ Look at the below code sample.
 
    ...Given that code sample, what will be the output if the variable `$language` has the value:
 
+Objectives:
+
+* Conditional statements
+
    a) "Javascript"
 
    Answer: Javascript is a Client-side scripting language.
@@ -134,6 +151,10 @@ Look at the below code sample.
 ### Problem 3
 
 Write PHP code to assign a value to the following variables (just pick an appropriate value):
+
+Objectives:
+
+* Variable assignment
 
    a) $name
 
@@ -159,6 +180,10 @@ Write PHP code to assign a value to the following variables (just pick an approp
 
 Come up with an example variable name and value for the following applications.
 
+Objectives:
+
+* Variable assignment
+
 a). Whether it is raining outside or not
 
 Answer: $is_raining = true;
@@ -183,6 +208,7 @@ Answer: $ssn = "555442232";
 
 For the following code excerpts, describe the error in each one.
 
+
    a)
 
         <?php
@@ -191,7 +217,9 @@ For the following code excerpts, describe the error in each one.
 
    Answer: hello world needs to be surrounded in quotes
 
+   Objectives:
 
+     * strings
 
    b)
 
@@ -203,8 +231,9 @@ For the following code excerpts, describe the error in each one.
 
    Answer: The largest index of the $colors array is 3
 
+   Objectives:
 
-
+     * Sequential Arrays
 
    c)
 
@@ -217,7 +246,9 @@ For the following code excerpts, describe the error in each one.
 
    Answer: $x > 3 needs to be wrapped in parenthesis
 
+   Objectives:
 
+     * Conditional statements
 
 
    d)
@@ -228,10 +259,7 @@ For the following code excerpts, describe the error in each one.
         ?>
 
    Answer: There is no semicolon after the $carBrands array declaration
-
-
-
-
+ 
    e)
 
         <?php
@@ -244,7 +272,9 @@ For the following code excerpts, describe the error in each one.
 
    Answer: $age = 21 should be $age == 21
 
+   Objectives:
 
+     * Conditional statements
 
 
    f)
@@ -260,6 +290,9 @@ For the following code excerpts, describe the error in each one.
 
    Answer: $todo is an associative array and does not contain 0 or 1 as keys
 
+   Objectives:
+
+     * Associative arrays
 
 
 
@@ -268,6 +301,10 @@ Section 1 - Data types
 ----------------------
 
 ### Problem 6
+
+   Objectives:
+
+     * Data types
 
 For each of the following data types, provide 2 example values:
 
@@ -312,6 +349,10 @@ Answer:
 For each of the following situations, select the data type that best represents
 the situation:
 
+   Objectives:
+
+     * Data types
+
 Examples:
 
     Question: The number of kids a person has
@@ -341,6 +382,10 @@ Section 2 - Variables
 
 ### Problem 8
 
+   Objectives:
+
+     * Variable assignment
+
 What will the following program print?
 
     <?php
@@ -364,6 +409,10 @@ y is 3
 
 For each statement, create a variable assignment that clearly represents the
 situation. Fill in the blanks provided.
+
+   Objectives:
+
+     * Variable assignment
 
 a) Joe's favorite hobby is going to the arcade
 
@@ -420,6 +469,10 @@ What is the output of the following program?
         echo "But you need to" . "be careful about" . " whitespace";
 
     ?>
+    
+   Objectives:
+
+     * Concatenation
 
 Answer:
 
@@ -432,6 +485,10 @@ But you need tobe careful about whitespace
 
 Create two string variables `$s1` and `$s2`. Assign the concatenation of the two
 strings to a variable `$s3`
+
+   Objectives:
+
+     * Concatenation
 
 Answer:
 
@@ -448,6 +505,11 @@ Observe the following code:
         $x = 3.4;
         $y = 3 . 4;
     ?>
+    
+   Objectives:
+
+     * Data types
+     * Concatenation
 
 a) What is the value of $x? What is its data type?
 
@@ -475,6 +537,10 @@ Section 4 - Getting in and out of PHP
 
 a) What do you have to type to get into PHP mode so you can type PHP code?
 
+   Objectives:
+
+     * PHP Environment
+
 Answer:
 
 <?php
@@ -484,6 +550,10 @@ Answer:
 b) What happens if you just type stuff directly into a .php file
 without typing that?
 
+   Objectives:
+
+     * PHP Environment
+
 Answer:
 
 The browser will display anything outside of the <?php ?> blocks as-is.
@@ -492,6 +562,10 @@ Any php code not inside a <?php ?> block will not be executed.
 ### Problem 13
 
 Is the following legal PHP code? Why or why not?
+
+   Objectives:
+
+     * PHP Environment
 
     <?php
 
@@ -517,6 +591,11 @@ Section 5 - Arrays
 
 Explain the difference between a sequential array and an associative array
 
+   Objectives:
+
+     * Associative arrays
+     * Sequential arrays
+
 Answer:
 
 Sequential arrays are ordered arrays with elements, where each element has an
@@ -532,30 +611,45 @@ a) array element
 
 Definition: A specific value inside of a sequential array
 
+   Objectives:
+
+     * Sequential arrays
+
 
 
 b) array key
 
 Definition: The identifier for a value in an associative array
 
+   Objectives:
 
+     * Associative arrays
 
 c) key-value pair
 
 Definition: An individual pairing of a key and its value in an associative
 array
 
+   Objectives:
 
+     * Associative arrays
 
 d) foreach loop
 
 Definition: A loop that performs a series of actions for each element in an
 array.
 
+Objectives:
+
+ * foreach loops
 
 ### Problem 16
 
 a) What function can you use to see how many elements are in an array?
+
+   Objectives:
+
+     * Sequential arrays
 
 Answer: count
 
@@ -563,6 +657,10 @@ Answer: count
 
 b) Write PHP code that uses this function to echo how many elements are in
 an array called $grades.
+
+   Objectives:
+
+     * Sequential arrays
 
 Answer: echo count($grades);
 
@@ -572,11 +670,19 @@ Answer: echo count($grades);
 
 a) How do you access the element of an array named $nums located at index $n?
 
+   Objectives:
+
+     * Sequential arrays
+
 Answer: $nums[$n];
 
 
 
 b) How do you access the last element of a (non-empty) array named $nums?
+
+   Objectives:
+
+     * Sequential arrays
 
 Answer:
 
@@ -596,25 +702,45 @@ What are the values of the following expressions?
 
 a) `$arr[2]`
 
+   Objectives:
+
+     * Sequential arrays
+
 Answer: 1
 
 
 b) `$arr[1] + $arr[3]`
+
+   Objectives:
+
+     * Sequential arrays
 
 Answer: 5
 
 
 c) `$arr[0]`
 
+   Objectives:
+
+     * Sequential arrays
+
 Answer: 5
 
 
 d) `count($arr)`
 
+   Objectives:
+
+     * Sequential arrays
+
 Answer: 6
 
 
 e) `$arr[ count($arr)-1 ]`
+
+   Objectives:
+
+     * Sequential arrays
 
 Answer: 6
 
@@ -626,6 +752,10 @@ Assign the array to an appropriately named variable.
 
 1) The students in the class are Bob, Jill, Jack, and Jaime.
 
+   Objectives:
+
+     * Sequential arrays
+
 Answer:
 
 $students = array("Bob", "Jill", "Jack", "Jaime");
@@ -633,6 +763,10 @@ $students = array("Bob", "Jill", "Jack", "Jaime");
 
 
 2) In the class, Bob got a 90, Jill got a 92, Jack got an 87 and Jaime got a 95.
+
+   Objectives:
+
+     * Associative arrays
 
 Answer:
 
@@ -682,15 +816,27 @@ retrieve the requested values within the array:
 
 a) 'Sore Throat'
 
+   Objectives:
+
+     * Associative arrays
+
 Answer: $patients[0]['illness']
 
 
 b) '01:30 AM':
 
+   Objectives:
+
+     * Associative arrays
+
 Answer: $patients[1]['admittance_time']
 
 
 c) 'Hacker McHackerson':
+
+   Objectives:
+
+     * Associative arrays
 
 Answer: $patients[2]['name']
 
@@ -717,15 +863,27 @@ Given the following code snippet...
 
 a) "whale" ?
 
+   Objectives:
+
+     * Conditional statements
+
 Answer: I am an animal and I have a spout!
 
 
 b) "elephant" ?
 
+   Objectives:
+
+     * Conditional statements
+
 Answer: I am an animal and I have a trunk!
 
 
 c) "dolphin" ?
+
+   Objectives:
+
+     * Conditional statements
 
 Answer: I am an animal
 
@@ -747,6 +905,10 @@ What will the following code output?
         echo "(Either would suffice)<br>";
     }
     ?>
+    
+   Objectives:
+
+     * Conditional statements
 
 Answer:
 
@@ -776,6 +938,10 @@ The 2nd method was a bit more complicated but it produced a sequential array of 
 
 Why would we want to use the 2nd method?  Why might the associative arrays be a more useful result?
 
+   Objectives:
+
+     * Associative arrays
+
 Answer: Using associative arrays with CSVs produce more readable code. This is
 because using keys to access values within the array is more explicit than
 using a seemingly arbitrary index number.
@@ -802,18 +968,32 @@ Observe the following function:
     }
 
     ?>
+    
 
 a) What are the inputs (a.k.a. the arguments or parameters)?
+
+   Objectives:
+
+     * Functions
 
 Answer: $x, $y
 
 
 c) What does this function do?
 
+   Objectives:
+
+     * Functions
+     * Conditionals
+
 Answer: Returns the larger value provided
 
 
 d) (Extra Credit) What is the return value of `greaterOfTwo(5,5)`?
+
+   Objectives:
+
+     * Functions
 
 Answer: Nothing
 
@@ -838,6 +1018,12 @@ What will the following program print?
         echo "y: $y<br>";
 
     ?>
+
+   Objectives:
+
+     * functions
+     * variable assignment
+     
 
 Answer:
 
@@ -871,6 +1057,9 @@ What will the following program print?
 
     ?>
 
+   Objectives:
+
+     * Functions
 
 Answer:
 
