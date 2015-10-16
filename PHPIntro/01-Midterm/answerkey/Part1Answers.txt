@@ -60,7 +60,7 @@ Answer: Hello Earth
 
 Objectives:
 
-* Variable substitution into double quoted strings
+* strings
 
 
 c)
@@ -74,7 +74,7 @@ Answer: Hello $which_world
 
 Objectives:
 
-* Literal echo from single quoted string
+* strings
 
 
 d)
