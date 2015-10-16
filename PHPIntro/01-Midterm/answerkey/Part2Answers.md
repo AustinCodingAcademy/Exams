@@ -25,6 +25,11 @@ Problems
 Write PHP Code that takes an array `$greetings = array("hello", "howdy", "yo!", "what up!")`
 and prints out each greeting on its own line.
 
+#### Assessment Objectives
+
+* arrays
+* foreach loops
+
 #### Source code
 
 ```php
@@ -48,6 +53,11 @@ foreach($greetings as $greeting){
 Write PHP Code that takes an array `$nums = array(5,3,1,2,5,8);` calculates the sum,
 (without using the builtin `array_sum` function), and prints out the result.
 
+#### Assessment Objectives
+
+* arrays
+* foreach loops
+
 #### Source code
 
 ```php
@@ -67,6 +77,13 @@ echo "The sum is $sum";
 [Problem 2 Output](https://raw.githack.com/AustinCodingAcademy/Exams/master/PHPIntro/01-Midterm/answerkey/output/prob2.html?token=AAevIGhtUTBzzg4sOS-KXsXJXGyEHveCks5WKqo_wA%3D%3D)
 
 ### Coding Problem 3
+
+#### Assessment Objectives
+
+* functions
+* foreach loops
+* conditionals
+* arrays
 
 #### Preface
 
