@@ -25,7 +25,7 @@ Problems
 Write PHP Code that takes an array `$greetings = array("hello", "howdy", "yo!", "what up!")`
 and prints out each greeting on its own line.
 
-```
+```php
 <?php
 
 $greetings = array("hello", "howdy", "yo!", "what up!");
