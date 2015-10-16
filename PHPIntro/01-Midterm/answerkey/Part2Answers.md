@@ -28,7 +28,6 @@ and prints out each greeting on its own line.
 #### Source code
 
 ```php
-
 <?php
 
 $greetings = array("hello", "howdy", "yo!", "what up!");
@@ -37,18 +36,35 @@ foreach($greetings as $greeting){
 }
 
 ?>
-
 ```
 
 #### Output
 
-[prob1.html](test.html)
+[Problem 1 Output](https://raw.githack.com/AustinCodingAcademy/Exams/master/PHPIntro/01-Midterm/answerkey/output/prob1.html?token=AAevILcSMa65tYmMoirfwIhnzfvIKqRuks5WKqdUwA%3D%3D)
 
 
 ### Coding Problem 2
 
 Write PHP Code that takes an array `$nums = array(5,3,1,2,5,8);` calculates the sum,
 (without using the builtin `array_sum` function), and prints out the result.
+
+#### Source code
+
+```php
+<?php
+
+$nums = array(5,3,1,2,5,8);
+$sum = 0;
+foreach($nums as $n){
+    $sum += $n;
+}
+
+echo "The sum is $sum";
+?>
+```
+
+#### Output
+[Problem 2 Output]()
 
 ### Coding Problem 3
 
@@ -60,7 +76,7 @@ in as the argument, but instead returns a new string.
 
 Observe the following program demonstrating use of `strrev`:
 
-```
+```php
 <?php
     $s = "hello";
     echo "$s<br>";
@@ -113,6 +129,46 @@ For each of the following strings, print out the string and whether it is a pali
 * civic
 * stirs
 * hannah
+
+#### Source code
+
+```php
+<?php
+
+function is_palindrome($str){
+    if($str == strrev($str)){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+$strings = array(
+    'joe',
+    'anna',
+    'computer',
+    'racecar',
+    'civic',
+    'stirs',
+    'hannah',
+);
+
+foreach($strings as $str){
+    if(is_palindrome($str)){
+        echo "$str is a palindrome<br>";
+    }
+    else{
+        echo "$str is NOT a palindrome<br>";
+    }
+}
+
+?>
+```
+
+#### Output
+
+[Problem 3 Output]()
 
 
 
