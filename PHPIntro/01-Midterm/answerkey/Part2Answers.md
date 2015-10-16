@@ -208,6 +208,29 @@ will be true:
 
 Answer:
 
+```php
+<?php
+$users = array(
+    1 => array(
+        'profile_id' => 5,
+        'email' => 'john@example.com',
+        'join_date' => 'Feb 13, 2012'
+    ),
+    4 => array(
+        'profile_id' => 15,
+        'email' => 'jack12@yahoo.com',
+        'join_date' => 'Mar 01, 2013'
+    ),
+    10 => array(
+        'profile_id' => 97,
+        'email' => 'meghan@yahoo.com',
+        'join_date' => 'Sep 22, 2015'
+    )
+);
+
+?>
+```
+
 
 
 b) Suppose we are making a more complex query to the same social network
@@ -244,16 +267,80 @@ containing their information from the PROFILE table.
 
 Answer:
 
+```php
+<?php
+
+$users = array(
+    1 => array(
+        'profile_id' => 5,
+        'email' => 'john@example.com',
+        'join_date' => 'Feb 13, 2012',
+        'profile' => array(
+            'id' => 5,
+            'first_name' => 'John',
+            'last_name' => 'Doe',
+            'phone_number' => '512-111-2211'
+        )
+    ),
+    4 => array(
+        'profile_id' => 15,
+        'email' => 'jack12@yahoo.com',
+        'join_date' => 'Mar 01, 2013',
+        'profile' => array(
+            'id' => 15,
+            'first_name' => 'Jack',
+            'last_name' => 'Daniels',
+            'phone_number' => '512-555-2323'
+        )
+    ),
+    10 => array(
+        'profile_id' => 97,
+        'email' => 'meghan@yahoo.com',
+        'join_date' => 'Sep 22, 2015',
+        'profile' => array(
+            'id' => 97,
+            'first_name' => 'Meghan',
+            'last_name' => 'McDaniels',
+            'phone_number' => '512-987-5434'
+        )
+    )
+);
+
+?>
+```
 
 
 c) Write a SQL query that gets just the first and last name out of the profile table.
 
 Answer:
 
+    SELECT first_name, last_name FROM PROFILE
+
 
 d) Write a SQL query that gets the user John Doe's profile joined with his user record.
 
-Answer:
+Answer (option 1):
+
+    SELECT *
+    FROM PROFILE
+    JOIN USER ON USER.profile_id = PROFILE.id
+    WHERE PROFILE.id=5
+
+Answer (option 2):
+
+    SELECT *
+    FROM PROFILE
+    JOIN USER ON USER.profile_id = PROFILE.id
+    WHERE USER.id=1
+
+Answer (option 3):
+
+    SELECT *
+    FROM PROFILE
+    JOIN USER ON USER.profile_id = PROFILE.id
+    WHERE
+        PROFILE.first_name = "John" AND
+        PROFILE.last_name = "Doe"
 
 
 
@@ -265,5 +352,54 @@ Given an `$nums = array(10,7,8,3,2,7,7,4,3,7)`, write PHP code that calculates t
 *Extra extra* credit if you don't use the builtin functions `array_count_values()`
 or `array_search()`!
 
-(You can do this one on the computer and submit it via email)
+#### Source
 
+```php
+<?php
+
+$nums = array(10,7,8,3,2,7,7,4,3,7);
+
+// Prepare to store both the value of the mode and the number of times it occurs
+$mode = ['val' => NULL, 'count' => 0 ];
+
+// $counts will be a set of key=>value pairs of the form
+// number => times this number has been "seen" in the array $nums so far
+// For example, if $counts had the the following key=value pairs,
+// [
+//     0 => 2,
+//     5 => 1,
+//     6 => 3
+// ]
+// We would interpret this as
+// * 0 occured in the array $nums 2 times
+// * 5 occured in the array $nums 1 time
+// * 6 occured in the array $nums 3 times
+$counts = [];
+
+foreach($nums as $n){
+    // If we haven't seen the number `$n` in the $nums array yet, create the key
+    // `$n` in the $counts array and set its value to 0 (since we haven't seen
+    // it yet!)
+    if(!isset($counts[$n])){
+        $counts[$n] = 0;
+    }
+
+    // Add 1 to the value of the key `$n` in the array `$counts` to signify
+    // we've seen another occurence of $n in the $nums array.
+    $counts[$n] += 1;
+
+    // If the number of times this element has been seen is more than the
+    // current mode, this element becomes the current mode.
+    if($counts[$n] > $mode['count']){
+        $mode = ['val' => $n, 'count' => $counts[$n]];
+    }
+}
+
+?>
+
+<p>The mode is <?php echo $mode['val']; ?>, which occured <?php echo $mode['count']; ?> times.</p>
+```
+
+#### Output
+
+[Extra Credit 2 Output]()
