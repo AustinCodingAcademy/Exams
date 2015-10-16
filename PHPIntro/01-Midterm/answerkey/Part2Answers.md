@@ -64,7 +64,8 @@ echo "The sum is $sum";
 ```
 
 #### Output
-[Problem 2 Output]()
+[Problem 2
+Output](https://raw.githack.com/AustinCodingAcademy/Exams/master/PHPIntro/01-Midterm/answerkey/output/prob2.html?token=AAevIGhtUTBzzg4sOS-KXsXJXGyEHveCks5WKqo_wA%3D%3D)
 
 ### Coding Problem 3
 
@@ -168,7 +169,8 @@ foreach($strings as $str){
 
 #### Output
 
-[Problem 3 Output]()
+[Problem 3
+Output](https://raw.githack.com/AustinCodingAcademy/Exams/master/PHPIntro/01-Midterm/answerkey/output/prob3.html?token=AAevIEw0dPgbnnlWXWtFTfboq5jFBtJvks5WKqpAwA%3D%3D)
 
 
 
