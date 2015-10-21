@@ -494,7 +494,7 @@ A coworker of yours has written code of the following form:
 What arguments would you use to convince the coworker to implement a $user_ids
 array instead of using individual $user_id_ variables?
 
-Answers:
+Answer:
 
 
 ### Problem
@@ -623,7 +623,7 @@ Query results:
 We can read the first row as "The user with id 1 has a profile_id of 5, an email
 of john@example.com, and a join_date of Feb 13, 2012"
 
-Create an array $users representing the information contained in the query
+Define an array $users representing the information contained in the query
 results. If your array is structured correctly, the following expressions will
 be true:
 
@@ -640,6 +640,41 @@ Answer:
 
 Section 6 - Loops
 -----------------
+
+### Problem
+
+Precisely define the structure of a for-loop.
+
+Answer:
+
+
+
+### Problem
+
+Precisely define the structure of a while loop.
+
+Answer:
+
+
+### Problem
+
+a) In general, when would a while loop be preferred over a for-loop?
+
+Answer:
+
+
+b) Provide an example scenario where a while loop would be preferred over a
+for-loop
+
+Answer:
+
+
+### Problem
+
+Precisely define the structure of a for-loop.
+
+Answer:
+
 
 Section 7 - Functions
 ---------------------
