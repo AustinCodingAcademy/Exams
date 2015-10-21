@@ -459,6 +459,65 @@ Section 4 - Arrays
 
 ### Problem
 
+Define the following terms:
+
+a) element
+
+Answer:
+
+
+b) index
+
+Answer:
+
+
+### Problem
+
+A coworker of yours has written code of the following form:
+
+    <?php
+
+    $user_id_1 = 10;
+    $user_id_2 = 30;
+    $user_id_3 = 20;
+    $user_id_4 = 90;
+    $user_id_5 = 70;
+
+    send_welcome_email($user_id_1);
+    send_welcome_email($user_id_2);
+    send_welcome_email($user_id_3);
+    send_welcome_email($user_id_4);
+    send_welcome_email($user_id_5);
+
+    ?>
+
+What arguments would you use to convince the coworker to implement a $user_ids
+array instead of using individual $user_id_ variables?
+
+Answers:
+
+
+### Problem
+
+Assume the array $animals is non-empty.
+
+a) Assign the number of elements in $animals to the variable $x.
+
+Answer:
+
+
+b) What is the last index of $animals?
+
+Answer:
+
+
+c) What is the value of the last element of $animals?
+
+Answer:
+
+
+### Problem
+
 
 Consider the following array
 
@@ -466,9 +525,127 @@ Consider the following array
 
 What are the values of the following expressions?
 
+a) 2 * $x[0]
 
-Section 5 - Functions
+Answer:
+
+
+b) $x[0] * $x[0]
+
+Answer:
+
+
+c) $x[count($x)-1]
+
+Answer:
+
+
+d) $x[count($x)-2] + $x[count($x) - count($x)]
+
+Answer:
+
+
+e) $x[$x[0]]
+
+Answer:
+
+
+Section 5 - Associative Arrays
+------------------------------
+
+### Problem
+
+Define the following terms
+
+
+a) key
+
+Answer:
+
+
+b) key-value pair
+
+Answer:
+
+
+### Problem
+
+For the following array, write code that could be used to retrieve the requested values within the array:
+
+    $patients = array(
+        array(
+            'name' => 'Kurt Vonnegut',
+            'illness' => 'Sore Throat',
+            'admittance_time' => '04:30 PM'
+        ),
+        array(
+            'name' => 'Noam Chomsky',
+            'illness' => 'Twisted Ankle',
+            'admittance_time' => '01:30 AM'
+        ),
+        array(
+            'name' => 'Hacker McHackerson',
+            'illness' => 'Carpel Tunnel',
+            'admittance_time' => '10:30 PM'
+        )
+    )
+
+a) 'Sore Throat'
+
+Answer:
+
+
+b) '01:30 AM':
+
+Answer:
+
+
+c) 'Hacker McHackerson':
+
+Answer:
+
+
+### Problem
+
+Suppose we are given the following user information from querying a social network database:
+
+Query results:
+
+    app_user Table
+    +----+------------+------------------+--------------+
+    | id | profile_id | email            | join_date    |
+    +----+------------+------------------+--------------+
+    |  1 |          5 | john@example.com | Feb 13, 2012 |
+    |  4 |         15 | jack12@yahoo.com | Mar 01, 2013 |
+    | 10 |         97 | meghan@yahoo.com | Sep 22, 2015 |
+    +----+------------+------------------+--------------+
+
+We can read the first row as "The user with id 1 has a profile_id of 5, an email
+of john@example.com, and a join_date of Feb 13, 2012"
+
+Create an array $users representing the information contained in the query
+results. If your array is structured correctly, the following expressions will
+be true:
+
+* $users[4]['email'] == 'jack12@yahoo.com'
+* $users[10]['profile_id'] == 97
+
+Answer:
+
+
+
+
+
+
+
+Section 6 - Loops
+-----------------
+
+Section 7 - Functions
 ---------------------
 
-Section 6 - Code Analysis and Debugging
+Section 8 - Code Analysis and Debugging
+---------------------------------------
+
+Section 9 - Object Oriented Programming
 ---------------------------------------
