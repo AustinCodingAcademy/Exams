@@ -826,17 +826,9 @@ A coworker approaches you with difficulty they're having with their code.
 Your coworker expected the program to print "15", but the program printed out
 "510".  Explain why the program did not print "15".
 
+Hint: NULL + x == x
+
 Answer:
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -866,15 +858,6 @@ What will the following program print?
     ?>
 
 Answer:
-
-
-
-
-
-
-
-
-
 
 
 
@@ -927,9 +910,6 @@ What will the following program print?
     ?>
 
 Answer:
-
-
-
 
 
 

@@ -689,11 +689,124 @@ Provide an example scenario where iterating over an array with a for loop may
 be preferred over iterating over an array with a foreach loop.
 
 
+### Problem
+
+The built in php function `mysql_fetch_assoc` will fetch a row from a query
+result and return the row as an associative array. If no more rows are available
+to be fetched from the query result, the `mysql_fetch_assoc` function returns
+boolean FALSE.
+
+Observe the following PHP code, which demonstrates a common idiom for iterating
+through a query result.
+
+    <?php
+
+    // Make a MySQL Connection
+    $query = "SELECT * FROM example";
+
+    $result = mysql_query($query) or die(mysql_error());
+
+
+    while($row = mysql_fetch_assoc($result)){
+        echo $row['name']. " - ". $row['age'];
+        echo "<br />";
+    }
+
+    ?>
+
+Explain precisely how the loop header `while($row = mysql_fetch_assoc($result))`
+allows us to iterate over each result from the query.
+
+Answer:
+
+
+
 Section 7 - Functions
 ---------------------
 
-Section 8 - Code Analysis and Debugging
----------------------------------------
+### Problem
 
-Section 9 - Object Oriented Programming
----------------------------------------
+Explain the difference between a function definition and a function call
+
+Answer:
+
+
+
+### Problem
+
+What will the following program print?
+
+    <?php
+
+        function say_a(){
+            echo "A";
+        }
+        function say_b(){
+            say_a();
+            echo "B";
+        }
+        function say_c(){
+            say_a();
+            say_b();
+            echo "C";
+        }
+
+        say_c();
+        say_c();
+
+    ?>
+
+Answer:
+
+
+
+
+### Problem
+
+What will the following program print?
+
+
+    <?php
+
+        function overwrite($x, $y){
+            $x = 10;
+            return $x + $y;
+        }
+
+        $x = 5;
+        $y = 10;
+
+        echo "x: $x<br>";
+        echo "y: $y<br>";
+        echo overwrite($x, $y);
+
+    ?>
+
+Answer:
+
+
+### Problem
+
+Observe the following true PHP expressions:
+
+* 1 % 2 == 1
+* 2 % 2 == 0
+* 3 % 2 == 1
+* 4 % 2 == 0
+* 5 % 2 == 1
+* 6 % 2 == 0
+* 7 % 2 == 1
+* 8 % 2 == 0
+
+With these expressions in mind, create a function called is_even that meets
+the following conditions:
+
+1. The function takes a single argument, which will be an integer
+2. The function should return true if that integer is even
+3. The function should return false if that integer is odd
+
+Answer:
+
+
+
+
