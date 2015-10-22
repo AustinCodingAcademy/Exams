@@ -21,7 +21,7 @@ email and send to:
 Set the email subject as `PHP Intermediate Midterm - Part 2`
 
 If you do not complete this portion of the midterm in class, please turn this
-portion in by 11:59PM Saturday Evening.
+portion in by Tuesday before class.
 
 Problem - Set implementation
 ----------------------------
