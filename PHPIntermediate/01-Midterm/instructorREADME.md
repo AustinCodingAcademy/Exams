@@ -1,42 +1,53 @@
-Back End Review Exam - Instructor README
-========================================
-
-Exam purpose
-------------
-
-This exam aims to gauge the knowledge and abilities of students coming from the
-Intermediate Back End course to the Advanced course. All of the topics presented
-in this exam should be topics presented in the Intermediate Back End course.
+PHP Intermediate Midterm - Instructor README
+============================================
 
 Topics covered
 --------------
 
-* Vocabulary
-* Data types
+* PHP Basics
+* Basic Data types
+* Variables
+* Conditionals
 * Arrays
-* Execution paths
-* Debugging
-* If statements
+* Associative Arrays
 * Loops
 * Functions
-* Scope
-* SQL
-* Database design principles
-* HTTP requests
-* File handling
-* JSON
+* Object oriented programming
 
 Administering the exam
 ----------------------
 
-This exam should be administered **within the first week of the session
-beginning**. It is imperative to assess the current knowledge of the students
-before proceeding with higher level software development concepts.
+### Location
 
-* This exam should be administered **in class**
-* Part 1 of the exam is hand written. No computers are allowed during this
-  portion of the exam. Students must hand in Part 1 of the exam before they
-  can begin Part 2.
-* Part 2 of the exam is coded. Using the internet to search for help is **NOT
-  ALLOWED**. Instead, a reference will be provided. TAs should walk around the
-  class to ensure students are not using the internet to searh for help.
+This exam should be administered **in class**
+
+### Procedures
+
+
+#### Part 1
+
+Part 1 of the exam is to be done **WITHOUT** the following aids:
+
+* notes
+* the internet
+* browsers
+* REPLs or anything capable of running PHP code
+
+Students are only allowed to use a text editor. They are not allowed to use any
+tools or programs that run, evaluate, or test their code in any form.
+
+After students have completed Part 1 of the exam, they should turn in their
+answers via email. They will then receive Part 2 of the exam.
+
+**NOTE**: Students will not be able to make any adjustments to the Part 1 of
+their exam after beginning Part 2. Make sure this is made extremely clear to
+the students.
+
+#### Part 2
+
+Part 2 of the exam contains coding problems. Using notes or the internet to
+search for help is **NOT ALLOWED**. Students are allowed to run and test code to
+ensure their answers are correct.
+
+After students have completed Part 2 of the exam, they should turn in their
+answers via email.

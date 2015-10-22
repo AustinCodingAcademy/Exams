@@ -854,12 +854,19 @@ Definition:
 
 ### Problem
 
-Explain the difference between an instance method and a static method
+a) Explain the difference between an instance method and a static method
 
 Answer:
 
 
+b) Provide an example use case for a static method
 
+Answer:
+
+
+c) Provide an example use case for an instance method
+
+Answer:
 
 
 ### Problem
@@ -879,24 +886,6 @@ Do you agree or disagree with this stance? Justify your answer. (There is no
 wrong stance, you will only be graded on your justification).
 
 Answer:
-
-
-
-
-
-
-### Problem
-
-A coworker has argued that every piece of code in your entire project must be
-wrapped in some class in some form. Functions should never be used, only methods
-of some class. Variables should rarely, if ever, exist in the global namespace -
-they should primarily be properties of some class. Do you agree or disagree with
-this stance? Justify your answer. (There is no wrong stance, you will only be
-graded on your justification).
-
-Answer:
-
-
 
 
 
