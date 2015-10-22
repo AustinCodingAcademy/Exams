@@ -643,7 +643,7 @@ Section 6 - Loops
 
 ### Problem
 
-Precisely define the structure of a for-loop.
+Precisely define the structure of a for loop.
 
 Answer:
 
@@ -658,22 +658,35 @@ Answer:
 
 ### Problem
 
-a) In general, when would a while loop be preferred over a for-loop?
+a) In general, when would a while loop be preferred over a for loop?
 
 Answer:
 
 
-b) Provide an example scenario where a while loop would be preferred over a
-for-loop
+b) Provide an example scenario where using a while loop may be preferred over a
+using for loop
 
 Answer:
 
 
 ### Problem
 
-Precisely define the structure of a for-loop.
+Precisely define the structure of a foreach loop.
 
 Answer:
+
+
+### Problem
+
+Why is it generally preferred to use a foreach loop to iterate over an array?
+
+Answer:
+
+
+### Problem
+
+Provide an example scenario where iterating over an array with a for loop may
+be preferred over iterating over an array with a foreach loop.
 
 
 Section 7 - Functions
