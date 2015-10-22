@@ -49,7 +49,7 @@ The following would not be a valid Set since it contains repeated elements.
 
 However, PHP does not contain built in support for Sets. Our notation of {5,2,3}
 is hypothetical - it does not actually work in PHP. Your task will be to create
-a Set class that emulates Set behavior.
+a Set class that uses Arrays to emulate Set behavior.
 
 ### Set behavior and operations
 
@@ -130,7 +130,7 @@ Create a Set class that fulfills the following specifications:
 * The constructor should optionally take in an Array and create a Set based on
   the array elements. Otherwise the Set should start off empty.
 * The class should provide a `has($val)` instance method that returns boolean
-* True if the Set contains the value $val.
+  True if the Set contains the value $val, false otherwise.
   a value to the Set.
 * The class should provide a `count()` instance method that returns the number
   of elements in the Set.
