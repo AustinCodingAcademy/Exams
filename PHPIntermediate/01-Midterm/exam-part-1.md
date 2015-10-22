@@ -731,6 +731,14 @@ Explain the difference between a function definition and a function call
 Answer:
 
 
+### Problem
+
+What is the primary purpose of a return statement in a function? Beyond its
+primary purpose, what is an additional consequence of using a return statement
+in a function?
+
+Answer:
+
 
 ### Problem
 
@@ -807,6 +815,97 @@ the following conditions:
 
 Answer:
 
+
+
+
+
+
+Section 8 - Object Oriented Programming
+---------------------------------------
+
+### Problem
+
+Define the following terms
+
+a) constructor
+
+Definition:
+
+
+b) object
+
+Definition:
+
+
+c) property
+
+Definition:
+
+
+d) method
+
+Definition:
+
+
+e) member
+
+Definition:
+
+
+### Problem
+
+Explain the difference between an instance method and a static method
+
+Answer:
+
+
+
+
+
+### Problem
+
+Provide an example scenario demonstrating the usefulness of a setter method (as
+opposed to directly assigning a value to a property via $obj->property = val)
+
+Answer:
+
+
+### Problem
+
+A coworker has argued that classes are not necessary for good programming style.
+They argue the behavior of classes can be emulated by passing associative arrays
+to functions and letting the functions modify the associative arrays as needed.
+Do you agree or disagree with this stance? Justify your answer. (There is no
+wrong stance, you will only be graded on your justification).
+
+Answer:
+
+
+
+
+
+
+### Problem
+
+A coworker has argued that every piece of code in your entire project must be
+wrapped in some class in some form. Functions should never be used, only methods
+of some class. Variables should rarely, if ever, exist in the global namespace -
+they should primarily be properties of some class. Do you agree or disagree with
+this stance? Justify your answer. (There is no wrong stance, you will only be
+graded on your justification).
+
+Answer:
+
+
+
+
+
+
+### Problem
+
+Explain what `$this` represents in an instance method definition.
+
+Answer:
 
 
 
