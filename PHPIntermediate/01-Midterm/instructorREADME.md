@@ -46,8 +46,12 @@ the students.
 #### Part 2
 
 Part 2 of the exam contains coding problems. Using notes or the internet to
-search for help is **NOT ALLOWED**. Students are allowed to run and test code to
-ensure their answers are correct.
+search for help is allowed. Students are also allowed to run and test code to
+ensure their answers are correct. Students may use all available resources to
+them.
+
+Students should be made aware that full solutions to the problems found online
+cannot be used.
 
 After students have completed Part 2 of the exam, they should turn in their
 answers via email.

@@ -1,5 +1,41 @@
-PHP Intermediate Midterm
-========================
+PHPIntro Intermediate Midterm - Part 1
+======================================
+
+Instructions
+------------
+
+Copy this text file to a file named YourName_Midterm_Part1.txt.
+For example, JoeMcCullough_Midterm_Part1.txt. You will provide your answers to
+the problems in the "Answer:" sections indicated.
+
+This portion of the test is to be completed **without notes**. Notes include
+
+* previous assignments
+* examples from in class
+* anything from the internet
+* etc
+
+You are not allowed to execute php code in any form while taking this portion of
+the test. This includes
+
+* from the browser
+* from the command line
+* from PHPStorm
+
+After you have completed this portion of the midterm, attach the .txt file
+in an email to the following addresses:
+
+* samir@austincodingacademy.com
+* joe@austincodingacademy.com
+
+Set the email subject as `PHP Intermediate Midterm - Part 1`
+
+Notify a TA or the instructor when you have submitted Part 1. Part 2 will then
+be emailed to you.
+
+!!!! WARNING !!!! - You will not be able to make revisions to your answers on
+Part 1 after you have started Part 2.
+
 
 * Student name:
 
@@ -685,6 +721,20 @@ Answer:
 
 ### Problem
 
+Observe the following array definition:
+
+    $nums = [5,3,9,12,6];
+
+Create a foreach loop that would print out each element of $nums on its own line
+in the browser.
+
+Answer:
+
+
+
+
+### Problem
+
 Provide an example scenario where iterating over an array with a for loop may
 be preferred over iterating over an array with a foreach loop.
 
@@ -875,18 +925,6 @@ Provide an example scenario demonstrating the usefulness of a setter method (as
 opposed to directly assigning a value to a property via $obj->property = val)
 
 Answer:
-
-
-### Problem
-
-A coworker has argued that classes are not necessary for good programming style.
-They argue the behavior of classes can be emulated by passing associative arrays
-to functions and letting the functions modify the associative arrays as needed.
-Do you agree or disagree with this stance? Justify your answer. (There is no
-wrong stance, you will only be graded on your justification).
-
-Answer:
-
 
 
 
