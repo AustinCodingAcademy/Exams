@@ -42,7 +42,7 @@ Part 1 after you have started Part 2.
 Section 0 - PHP Basics
 ----------------------------
 
-### Problem
+### Problem 1
 
 Define the following terms
 
@@ -90,19 +90,19 @@ k) dynamic website:
 
 Definition:
 
-### Problem
+### Problem 2
 
 What is the role of the browser?
 
 Answer:
 
-### Problem
+### Problem 3
 
 What is the role of PHP?
 
 Answer:
 
-### Problem
+### Problem 4
 
 Briefly explain the processes that take place when a php file is requested from
 the browser.
@@ -118,7 +118,7 @@ Answer:
 Section 1 - Basic Data types
 ----------------------------
 
-### Problem
+### Problem 5
 
 Define the following terms
 
@@ -130,23 +130,23 @@ b) dynamic typing
 
 Definition:
 
-### Problem
+### Problem 6
 
 List the basic (scalar) data types in PHP. Provide 2 example values for each
 type listed.
 
 Answer:
 
-### Problem
+### Problem 7
 
 
-### Problem
+### Problem 8
 
 When casting from a float to an int, what is the expected behavior?
 
 Answer:
 
-### Problem
+### Problem 9
 
 What is the basic data type that best represents each object/scenario?
 
@@ -183,7 +183,7 @@ h) percent increase in stock value
 Answer:
 
 
-### Problem
+### Problem 10
 
 For each of the following expressions, list the value of the expression and the
 data type of the value.
@@ -223,7 +223,7 @@ Answer:
 Section 2 - Variables
 ---------------------
 
-### Problem
+### Problem 11
 
 Observe the following expression
 
@@ -248,7 +248,7 @@ c) Explain this behavior
 Answer:
 
 
-### Problem
+### Problem 12
 
 Come up with an example variable name and value for the following applications.
 
@@ -271,7 +271,7 @@ d) The user's social security number is 555442232
 
 Answer:
 
-### Problem
+### Problem 13
 
 Create 5 separate variables, with each individual variable representing a
 component of a date (for example, the day of the week). Provide example values
@@ -281,11 +281,11 @@ for these variables.
 Section 3 - Conditionals
 ------------------------
 
-### Problem
+### Problem 14
 
 Describe the general form of an `if`/`else if`/`else` statement
 
-### Problem
+### Problem 15
 
 What will the following code print to the screen?
 
@@ -313,7 +313,7 @@ What will the following code print to the screen?
 
 Output:
 
-### Problem
+### Problem 16
 
 What will the following code print to the screen?
 
@@ -338,7 +338,7 @@ What will the following code print to the screen?
 
 Output:
 
-### Problem
+### Problem 17
 
 How are the following conditional statements different? What is the significance
 of this difference?
@@ -362,7 +362,7 @@ vs
 
 Answer:
 
-### Problem
+### Problem 18
 
 Observe the following code:
 
@@ -395,7 +395,7 @@ Answer:
 
 
 
-### Problem
+### Problem 19
 
 Observe the following code:
 
@@ -412,7 +412,7 @@ Observe the following code:
 
 Rewrite this code, removing the nested if statements but retaining the same behavior.
 
-### Problem
+### Problem 20
 
 Consider the following if statement:
 
@@ -431,7 +431,7 @@ If the condition of the if-statement is false, what assumptions can we make
 within the else block regarding $current_balance, $charge_amount, and
 $overdraft_allowed?
 
-### Problem
+### Problem 21
 
 Consider the following if statement:
 
@@ -449,7 +449,7 @@ Consider the following if statement:
 If the condition of the if-statement is false, what assumptions can we make
 within the else block regarding $temperature and $condition?
 
-### Problem
+### Problem 22
 
 Look at the below code sample.
 
@@ -490,7 +490,7 @@ Look at the below code sample.
 Section 4 - Arrays
 ------------------
 
-### Problem
+### Problem 23
 
 Define the following terms:
 
@@ -504,7 +504,7 @@ b) index
 Answer:
 
 
-### Problem
+### Problem 24
 
 A coworker of yours has written code of the following form:
 
@@ -530,7 +530,7 @@ array instead of using individual $user_id_ variables?
 Answer:
 
 
-### Problem
+### Problem 25
 
 Assume the array $animals is non-empty. The following questions should be
 answered for the array in general terms. You do not need to see the contents
@@ -551,7 +551,7 @@ c) What is the value of the last element of $animals?
 Answer:
 
 
-### Problem
+### Problem 26
 
 
 Consider the following array
@@ -588,7 +588,7 @@ Answer:
 Section 5 - Associative Arrays
 ------------------------------
 
-### Problem
+### Problem 27
 
 Define the following terms
 
@@ -603,7 +603,7 @@ b) key-value pair
 Answer:
 
 
-### Problem
+### Problem 28
 
 For the following array, write code that could be used to retrieve the requested values within the array:
 
@@ -644,7 +644,7 @@ Answer:
 Section 6 - Loops
 -----------------
 
-### Problem
+### Problem 29
 
 Precisely define the structure of a for loop.
 
@@ -652,14 +652,14 @@ Answer:
 
 
 
-### Problem
+### Problem 30
 
 Precisely define the structure of a while loop.
 
 Answer:
 
 
-### Problem
+### Problem 31
 
 a) In general, when would a while loop be preferred over a for loop?
 
@@ -672,21 +672,21 @@ using for loop
 Answer:
 
 
-### Problem
+### Problem 32
 
 Precisely define the structure of a foreach loop.
 
 Answer:
 
 
-### Problem
+### Problem 33
 
 Why is it generally preferred to use a foreach loop to iterate over an array?
 
 Answer:
 
 
-### Problem
+### Problem 34
 
 Observe the following array definition:
 
@@ -700,7 +700,7 @@ Answer:
 
 
 
-### Problem
+### Problem 35
 
 The built in php function `mysql_fetch_assoc` will fetch a row from a query
 result and return the row as an associative array. If no more rows are available
@@ -736,14 +736,14 @@ Answer:
 Section 7 - Functions
 ---------------------
 
-### Problem
+### Problem 36
 
 Explain the difference between a function definition and a function call
 
 Answer:
 
 
-### Problem
+### Problem 37
 
 What is the primary purpose of a return statement in a function? Beyond its
 primary purpose, what is an additional consequence of using a return statement
@@ -752,7 +752,7 @@ in a function?
 Answer:
 
 
-### Problem
+### Problem 38
 
 What will the following program print?
 
@@ -781,7 +781,7 @@ Answer:
 
 
 
-### Problem
+### Problem 39
 
 What will the following program print?
 
@@ -806,7 +806,7 @@ What will the following program print?
 Answer:
 
 
-### Problem
+### Problem 40
 
 Observe the following true PHP expressions:
 
@@ -836,7 +836,7 @@ Answer:
 Section 8 - Object Oriented Programming
 ---------------------------------------
 
-### Problem
+### Problem 41
 
 Define the following terms
 
@@ -865,7 +865,7 @@ e) member
 Definition:
 
 
-### Problem
+### Problem 42
 
 a) Explain the difference between an instance method and a static method
 
@@ -882,7 +882,7 @@ c) Provide an example use case for an instance method
 Answer:
 
 
-### Problem
+### Problem 43
 
 Provide an example scenario demonstrating the usefulness of a setter method (as
 opposed to directly assigning a value to a property via $obj->property = val)
@@ -891,7 +891,7 @@ Answer:
 
 
 
-### Problem
+### Problem 44
 
 Explain what `$this` represents in an instance method definition.
 
