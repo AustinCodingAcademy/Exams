@@ -131,10 +131,10 @@ Create a Set class that fulfills the following specifications:
   the array elements. Otherwise the Set should start off empty.
 * The class should provide a `has($val)` instance method that returns boolean
   True if the Set contains the value $val, false otherwise.
-  a value to the Set.
 * The class should provide a `count()` instance method that returns the number
   of elements in the Set.
-  the value $val to the Set.
+* The class should provide an `all()` instance method that returns all the
+  elements in the set.
 * The class should provide an `add($val)` instance method that allows you to add
   the value $val to the Set.
 * The class should provide a `remove($val)` instance method that allows you to
