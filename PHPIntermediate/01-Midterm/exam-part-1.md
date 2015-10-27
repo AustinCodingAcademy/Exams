@@ -333,9 +333,6 @@ What will the following code print to the screen?
     else if($x == 10){
         echo '$x was 10';
     }
-    else{
-        echo "Nothing happened";
-    }
 
     ?>
 
@@ -535,7 +532,9 @@ Answer:
 
 ### Problem
 
-Assume the array $animals is non-empty.
+Assume the array $animals is non-empty. The following questions should be
+answered for the array in general terms. You do not need to see the contents
+of the array in order to answer the questions.
 
 a) Assign the number of elements in $animals to the variable $x.
 
@@ -641,38 +640,6 @@ c) 'Hacker McHackerson':
 Answer:
 
 
-### Problem
-
-Suppose we are given the following user information from querying a social network database:
-
-Query results:
-
-    app_user Table
-    +----+------------+------------------+--------------+
-    | id | profile_id | email            | join_date    |
-    +----+------------+------------------+--------------+
-    |  1 |          5 | john@example.com | Feb 13, 2012 |
-    |  4 |         15 | jack12@yahoo.com | Mar 01, 2013 |
-    | 10 |         97 | meghan@yahoo.com | Sep 22, 2015 |
-    +----+------------+------------------+--------------+
-
-We can read the first row as "The user with id 1 has a profile_id of 5, an email
-of john@example.com, and a join_date of Feb 13, 2012"
-
-Define an array $users representing the information contained in the query
-results. If your array is structured correctly, the following expressions will
-be true:
-
-* $users[4]['email'] == 'jack12@yahoo.com'
-* $users[10]['profile_id'] == 97
-
-Answer:
-
-
-
-
-
-
 
 Section 6 - Loops
 -----------------
@@ -735,12 +702,6 @@ Answer:
 
 ### Problem
 
-Provide an example scenario where iterating over an array with a for loop may
-be preferred over iterating over an array with a foreach loop.
-
-
-### Problem
-
 The built in php function `mysql_fetch_assoc` will fetch a row from a query
 result and return the row as an associative array. If no more rows are available
 to be fetched from the query result, the `mysql_fetch_assoc` function returns
@@ -765,7 +726,8 @@ through a query result.
     ?>
 
 Explain precisely how the loop header `while($row = mysql_fetch_assoc($result))`
-allows us to iterate over each result from the query.
+allows us to iterate over each result from the query. How can the return value
+of `mysql_fetch_assoc` stop the loop if it's being assigned to `$row`?
 
 Answer:
 
@@ -834,9 +796,10 @@ What will the following program print?
         $x = 5;
         $y = 10;
 
+        echo overwrite($x, $y);
         echo "x: $x<br>";
         echo "y: $y<br>";
-        echo overwrite($x, $y);
+        
 
     ?>
 
